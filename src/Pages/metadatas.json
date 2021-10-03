@@ -1,0 +1,22 @@
+{
+    "name": "Pack test",
+    "description": "Pack a été créé par Echidna il y a environ 400 ans, bien qu'il l'ait apparemment quittée au moment où elle s'est installée au Sanctuaire. Il a dégelé Émilia 7 ans avant le début des élections et s'est mis à se comporter comme son ami et son mentor aussitôt. Il s'installera par la suite au manoir de Roswaal où il pourra être réuni avec Béatrice. /n This NFT includes a 10% resell royalties policy to be sent to the address : xxxxxx",
+    "image": "ipfs://Qmbp5fQw4Tvx2YW23fz7WuodCjHNEopWzj2TV7F4KKWT1m",
+    "external_uri": "http://www.torekko.com",
+    "legal": "This NFT includes a 10% resell royalties policy to be sent to the address : xxxxxx",
+    "attributes": [
+      {
+        "trait_type": "Licence ",
+        "value": "Re:Zero –Starting Life in Another World"
+      },
+      {
+        "trait_type": "Saison",
+        "value": "HIVER 2021"
+      },
+      {
+        "display_type": "number",
+        "trait_type": "Numéro",
+        "value": 23
+      }
+    ]
+  }

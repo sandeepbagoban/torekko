@@ -1,0 +1,142 @@
+.drop {
+  margin-top: 120px;
+  font-weight: normal;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.drop .banniere {
+  width: 100%;
+}
+.drop .drop-buy {
+  margin-top: 7%;
+}
+
+.drop .drop-buy img {
+  margin-left: 15%;
+  width: 20%;
+  min-width: 200px;
+  display: inline-block;
+  float: left;
+}
+.drop .drop-form {
+  margin-left: -130px;
+}
+
+.drop input[type="text"] {
+  border-radius: 13px;
+  border-color: white;
+  margin-left: 80px;
+  font-size: 15px;
+}
+.drop textarea:focus,
+input:focus {
+  outline: none;
+}
+.drop ::placeholder {
+  color: white;
+}
+
+.drop input[name="ETH_Mainnet"] {
+  background-color: #e3032d;
+  width: 40%;
+  min-width: 400px;
+  color: white;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 1%;
+  border: none;
+  margin-left: 5px;
+}
+.drop .form-ETH_Mainnet {
+  color: #e3032d;
+  font-weight: bold;
+}
+
+.drop input[name="mail"] {
+  text-align: center;
+  width: 38%;
+  min-width: 400px;
+  padding-top: 0.4%;
+  padding-bottom: 0.4%;
+  padding-left: 1%;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.drop .form-mail {
+  margin-right: 2.7%;
+  font-weight: bold;
+  margin-left: -100px;
+}
+
+.drop .timer {
+  background-color: red;
+}
+
+.drop input[name="submit"] {
+  width: 150px;
+  margin-top: 20px;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 970px) {
+  .drop .form-mail {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 950px) {
+  .drop .form-ETH_Mainnet span {
+    display: list-item;
+    list-style: none;
+  }
+}
+@media (max-width: 810px) {
+  .drop {
+    margin-top: 30px;
+  }
+  .drop .explication {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+  .drop .drop-buy img {
+    margin: 0 28%;
+  }
+  .drop .drop-buy {
+    display: inline-table;
+  }
+  .drop .drop-form {
+    margin-top: 400px;
+    margin-left: -2%;
+  }
+  .drop input[name="mail"] {
+    margin: 0;
+  }
+  .drop .form-mail {
+    margin-left: 10px;
+  }
+  .drop .form-ETH_Mainnet span {
+    display: list-item;
+    list-style: none;
+  }
+  .drop input[name="ETH_Mainnet"] {
+    width: 40%;
+    min-width: 350px;
+  }
+  .drop input[name="mail"] {
+    width: 40%;
+    min-width: 350px;
+  }
+}
+@media (max-width: 490px) {
+  .drop .drop-buy img {
+    margin: 0 22%;
+  }
+}

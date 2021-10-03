@@ -1,0 +1,49 @@
+.BuyBooster {
+}
+.BuyBooster .presentation-booster {
+  background: #e3032d;
+  padding-bottom: 60px;
+}
+.BuyBooster .presentation-booster h1 {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.BuyBooster .presentation-booster img {
+  width: 25%;
+  min-width: 300px;
+  padding: 20px 20px;
+}
+.BuyBooster .booster-moment {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.BuyBooster .booster-moment img {
+  width: 20%;
+  min-width: 350px;
+  padding: 20px 20px;
+}
+.BuyBooster .booster-moment .div-booster p {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.BuyBooster .booster-moment .div-booster {
+  padding-bottom: 40px;
+}
+
+.BuyBooster .booster-moment .div-booster .nv {
+  left: 40px;
+  position: absolute;
+}
+.BuyBooster .booster-moment .div-booster .voir {
+  right: 40px;
+  position: absolute;
+}
+
+@media (max-width: 810px) {
+  .BuyBooster {
+    margin-top: 30px;
+  }
+}

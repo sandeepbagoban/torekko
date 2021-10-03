@@ -1,0 +1,68 @@
+.initAccount {
+  padding-top: 3%;
+  margin-top: 8.5%;
+  background-color: #e3032d;
+}
+.initAccount h1 {
+  font-weight: normal;
+  font-size: 50px;
+}
+.initAccount b {
+  color: white;
+}
+
+.initAccount-block1 {
+  position: relative;
+  color: white;
+  padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #e3032d;
+  display: flex;
+  align-items: stretch;
+}
+.initAccount-block1 p {
+  width: 60%;
+  padding-right: 30px;
+}
+
+.initAccount-block2 {
+  margin-top: 6%;
+}
+.wallet {
+  align-items: stretch;
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 2%;
+}
+.block-image {
+  position: relative;
+  padding-left: 10%;
+}
+.cercle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  border: solid 2px;
+  border-color: #e3032d;
+  background: white;
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 4%;
+}
+.connect-button {
+  margin-top: 2%;
+  margin-bottom: 10%;
+  width: 17%;
+  font-size: 17px;
+  background-color: black;
+  border: solid;
+  border-color: #e3032d;
+  color: white;
+  font-weight: bold;
+  border-radius: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

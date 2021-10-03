@@ -1,0 +1,251 @@
+.Achatbooster .achat {
+  background-color: #e3032d;
+  margin-top: 120px;
+  display: inline-block;
+  width: 100%;
+  overflow-x: hidden;
+}
+.Achatbooster .achat img {
+  width: 40%;
+  min-width: 450px;
+  display: inline-block;
+  float: left;
+}
+.Achatbooster .achat .description {
+  display: inline-block;
+  width: 50%;
+  margin-left: 2%;
+  text-align: left;
+}
+
+.Achatbooster .achat .description h1 {
+  font-size: 2.9vw;
+}
+.Achatbooster .achat .description h1 span {
+  color: white;
+}
+.Achatbooster .achat .description h2 {
+  font-size: 2vw;
+  margin-top: 5%;
+  color: white;
+}
+.Achatbooster .achat .description h3 {
+  font-size: 1.5vw;
+  margin-top: 6%;
+}
+.Achatbooster .achat .description .description-saison {
+  margin-top: -2.5%;
+  font-size: 1.2vw;
+  color: white;
+}
+.Achatbooster .achat .line {
+  width: 40%;
+  color: white;
+  margin-top: -6px;
+  margin-bottom: -20px;
+  float: left;
+}
+
+.Achatbooster .achat .bloc .solde {
+  background-color: black;
+  color: white;
+  width: 40%;
+  text-align: left;
+  padding: 2% 0 2% 3%;
+  border-radius: 30px 0px 0px 30px;
+}
+.Achatbooster .achat .bloc .prix {
+  background-color: white;
+  color: black;
+  width: 40%;
+  text-align: right;
+  padding: 2% 3% 2% 0px;
+  border-radius: 0px 30px 30px 0px;
+}
+.Achatbooster .achat .bloc p {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.2vw;
+}
+
+/***** Compteur Booster *****/
+.Achatbooster .description .nombreBooster {
+  /*style={{display:"inline-block",width:'110%',fontSize:'20px'}}*/
+  font-size: 1.2vw;
+  margin-top: 3%;
+}
+.Achatbooster .description .nombreBooster p {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+.Achatbooster .description .nombreBooster .form {
+  /*marginTop:'15px',paddingRight:'50px'*/
+  display: inline-block;
+}
+.Achatbooster .description .nombreBooster .form a {
+  /*color:'white',backgroundColor:'black',borderRadius:'10px',padding: '5px 15px',marginLeft:'10px',userSelect:'none',cursor:'pointer'*/
+  color: white;
+  background-color: black;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Achatbooster .description .nombreBooster .form span {
+  /*backgroundColor:'white',color:'red',padding:'5px 25px',borderRadius:'10px'*/
+  background-color: white;
+  color: #e3032d;
+  padding: 2px 25px;
+  border-radius: 10px;
+}
+.Achatbooster .description .nombreBooster .form button {
+  /*backgroundColor:'black',color:'white',borderStyle:'none',fontSize:'20px',padding: '5px 25px',borderRadius:'10px',marginLeft:'10px'*/
+  background-color: black;
+  color: white;
+  border-style: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  margin-bottom: -30px;
+}
+
+.dispoBooster p {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.dispoBooster img {
+  width: 70%;
+}
+
+@media (max-width: 1250px) {
+  .Achatbooster .achat .description h1 {
+    font-size: 200%;
+  }
+  .Achatbooster .achat .description h2 {
+    font-size: 150%;
+  }
+  .Achatbooster .achat .description h3 {
+    font-size: 120%;
+  }
+  .Achatbooster .achat .description .description-saison {
+    font-size: 90%;
+  }
+
+  .Achatbooster .description .bloc .prix {
+    font-size: 80%;
+  }
+  .Achatbooster .description .bloc .solde {
+    font-size: 80%;
+  }
+
+  .Achatbooster .description .nombreBooster {
+    font-size: 90%;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 1005px) {
+  .Achatbooster .achat .description .nombreBooster {
+    margin-top: -10px;
+  }
+
+  .Achatbooster .achat .description .nombreBooster .form {
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 940px) {
+  .Achatbooster .achat {
+    background-color: white;
+  }
+  .Achatbooster .achat img {
+    display: initial;
+    float: initial;
+    width: 50%;
+    background-color: white;
+  }
+  .Achatbooster .achat .description {
+    background-color: #e3032d;
+    width: 100%;
+    margin: 0 0;
+    float: initial;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .Achatbooster .achat .description .description-saison {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+  }
+  .Achatbooster .description .bloc {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .Achatbooster .achat .description .nombreBooster {
+    margin-top: 20px;
+  }
+  .Achatbooster .achat .line {
+    float: none;
+  }
+}
+
+@media (max-width: 510px) {
+  .Achatbooster .achat img {
+    width: 100%;
+    min-width: 0;
+  }
+  .Achatbooster .achat .line {
+    visibility: hidden;
+  }
+  .Achatbooster .description .bloc {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 356px) {
+  .Achatbooster .description .bloc {
+    padding-bottom: 50px;
+  }
+  .Achatbooster .description .bloc .solde {
+    left: 20px;
+    width: 45%;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px 30px 30px 30px;
+  }
+  .Achatbooster .description .bloc .prix {
+    width: 45%;
+    right: 10px;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px 30px 30px 30px;
+  }
+  .Achatbooster .description .nombreBooster .form button {
+    margin-top: 10px;
+  }
+}
