@@ -32,6 +32,7 @@ function Home({contract}){
                 <span><Trans>home.info</Trans></span>
             </div>
             <Slide/>
+            {/*
             <div className="EnCeMoment">
                 <p><Trans>home.moment</Trans></p>
                 <div class="marquee-rtl">
@@ -40,10 +41,25 @@ function Home({contract}){
                     </div>
                 </div>
             </div>
+            */}
+            
+            <div className="Partners">
+                <h2><Trans>home.partners.title</Trans></h2>
+                <table>
+                    <tr>
+                        <td>
+                            <img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/>
+                            <img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
             <div className="Discover">
                 <h1><Trans>home.discover.title</Trans></h1>
                 <div className="discover-body">
-                    <img className="openbox" src={require('../../Illustration/discover-torekko.png').default} alt="discover"/>
+                    <img className="openbox" src={require('../../Illustration/discover-torekko2.jpg').default} alt="discover"/>
                     <p><Trans>home.discover</Trans></p>
                 </div>
             </div>
@@ -63,7 +79,7 @@ function Home({contract}){
             </div>
             <div className="boosterdrop">
                 <div className="booster-etape">
-                    <h2 style={{color:'white',fontSize:'30px'}}><Trans>home.booster.title</Trans></h2>
+                <h2 style={{color:'white',fontSize:'30px'}}><Trans>home.booster.title</Trans></h2>
                     <div className="booster-etape1">
                         <img src={require('../../Illustration/instructionBooster/buy-booster.png').default} alt="buy"/>
                         <p><Trans>home.booster.buybooster.title</Trans><br/>
@@ -99,6 +115,111 @@ function Home({contract}){
                     </div>
                 </div>
             </div>
+
+            <div className="team-container">
+                {/*put dans un autre fichier html*/}
+                <h2>
+                    <p class="black"><Trans>home.team.title1</Trans>
+                        <span class="red"><Trans>home.team.title2</Trans></span>
+                    </p>
+                </h2>
+                <table>
+                        <tr>
+                            <td data-label="TextUnder1">
+                                <img src={require('./../../Illustration/TeamPictures/pp-0.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic1</Trans></p>
+                                <p><Trans>home.name.pic8.2</Trans></p>
+                            </td>
+                            <td data-label="TextUnder2">
+                                <img src={require('./../../Illustration/TeamPictures/pp-1.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic2</Trans></p>
+                                <p><Trans>home.name.pic8.2</Trans></p>
+                            </td>
+                            <td data-label="TextUnder3">
+                                <img src={require('./../../Illustration/TeamPictures/pp-2.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic3</Trans></p>
+                                <p><Trans>home.name.pic8.2</Trans></p>
+                            </td>
+                            <td data-label="Text4">
+                                <img src={require('./../../Illustration/TeamPictures/pp-3.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic4</Trans></p>
+                                <p><Trans>home.name.pic4.2</Trans></p>
+                            </td>
+                            <td data-label="Text5">
+                                <img src={require('./../../Illustration/TeamPictures/pp-4.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic5</Trans></p>
+                                <p><Trans>home.name.pic5.2</Trans></p>
+                            </td>
+                            <td data-label="TextUnder6">
+                                <img src={require('./../../Illustration/TeamPictures/unknow.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic6</Trans></p>
+                                <p><Trans>home.name.pic6.2</Trans></p>
+                            </td>
+                            <td data-label="TextUnder7">
+                                <img src={require('./../../Illustration/TeamPictures/pp-6.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic7</Trans></p>
+                                <p><Trans>home.name.pic7.2</Trans></p>
+                            </td>
+                            <td data-label="Text8">
+                                <img src={require('./../../Illustration/TeamPictures/unknow.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic8</Trans></p>
+                                <p><Trans>home.name.pic8.2</Trans></p>
+                            </td>
+                            <td data-label="Text9">
+                                <img src={require('./../../Illustration/TeamPictures/pp-8.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic9</Trans></p>
+                                <p><Trans>home.name.pic9.2</Trans></p>
+                            </td>
+                            <td data-label="Text10">
+                                <img src={require('./../../Illustration/TeamPictures/pp-9.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic10</Trans></p>
+                                <p><Trans>home.name.pic10.2</Trans></p>
+                            </td>
+                            <td data-label="Text11">
+                                <img src={require('./../../Illustration/TeamPictures/pp-10.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic11</Trans></p>
+                                <p><Trans>home.name.pic11.2</Trans></p>
+                            </td>
+                            <td data-label="Text12">
+                                <img src={require('./../../Illustration/TeamPictures/unknow.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic12.2</Trans></p>
+                                <p><Trans>home.name.pic12.2</Trans></p>
+                            </td>
+                            <td data-label="Text13">
+                                <img src={require('./../../Illustration/TeamPictures/pp-12.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic13</Trans></p>
+                                <p><Trans>home.name.pic13.2</Trans></p>
+                            </td>
+                            <td data-label="Text14">
+                                <img src={require('./../../Illustration/TeamPictures/pp-13.jpg').default} alt="draw"/>
+                                <p><Trans>home.name.pic14</Trans></p>
+                                <p><Trans>home.name.pic14.2</Trans></p>
+                            </td>
+                            <td data-label="Text15">
+                                <img src={require('./../../Illustration/TeamPictures/pp-14.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic15</Trans></p>
+                                <p><Trans>home.name.pic15.2</Trans></p>
+                            </td>
+                            <td data-label="Text16">
+                                <img src={require('./../../Illustration/TeamPictures/pp-15.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic16</Trans></p>
+                                <p><Trans>home.name.pic16.2</Trans></p>
+                            </td>
+                            <td data-label="Text17">
+                                <img src={require('./../../Illustration/TeamPictures/unknow.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic17</Trans></p>
+                                <p><Trans>home.name.pic17.2</Trans></p>
+                            </td>
+                            <td data-label="Text18">
+                                <img src={require('./../../Illustration/TeamPictures/pp-17.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic18</Trans></p>
+                                <p><Trans>home.name.pic18.2</Trans></p>
+                            </td>
+                        </tr>
+                    </table>
+                    {/*!put dans un autre fichier html*/}
+                </div>
+            
             <div className="update-mail">
                 <div className="update-text">
                     <h2><Trans>home.email.title</Trans></h2>

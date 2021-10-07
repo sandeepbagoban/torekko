@@ -9,6 +9,7 @@
 
   "home.info": "Torekko of Launched coming soon !",
   "home.moment": "At the moment",
+  "home.partners.title":"Investors and partners",
   "home.discover.title":"Discover Torekko",
   "home.discover": "Torekko is the first NFT collectibles platform entirely focused on Japanese animation. Combining blockchain technology and the fantastic world of japanimation, Torekko offers a large number of NFTs ERC-20 collectibles representing your favourite characters and objects.<br>Every month, new boosters and collectibles will be available in the booster section of the site. Collect characters and items from your favorite licenses such as Attack of the Titans, Demon Slayer, Hunter X Hunter and many more!",
   "home.rarity":"4 levels of rarity",
@@ -32,6 +33,47 @@
   "home.email.description":"To get the latest information about torekko and the new collectibles available, subscribe to our newsletter!",
   "home.email.enterEmail":"Enter your email",
 
+  "home.team.title1":"Torekko",
+  "home.team.title2":" Team",
+  "home.name.pic1":"Enzo Duflot",
+  "home.name.pic2":"Victor Kreller",
+  "home.name.pic3":"Quentin Gibon",
+  "home.name.pic4":"Youssef Touggani",
+  "home.name.pic5":"Balthazar Roque",
+  "home.name.pic6":"Thomas Itel",
+  "home.name.pic7":"Gabriel Medoukali",
+  "home.name.pic8":"Lucas",
+  "home.name.pic9":"Kenta Berdollt",
+  "home.name.pic10":"Achraf Kadri",
+  "home.name.pic11":"Nathan Bouchi",
+  "home.name.pic12":"Nathan Pegard",
+  "home.name.pic13":"Arthur Barko",
+  "home.name.pic14":"Matthieu Pauly",
+  "home.name.pic15":"Gaêl Revet",
+  "home.name.pic16":"Antoine Bailé",
+  "home.name.pic17":"Flavie Laurent",
+  "home.name.pic18":"Marika DMG",
+  
+  "home.name.pic1.2":"CCO & Co-founder",
+  "home.name.pic2.2":"CEO & Co-founder",
+  "home.name.pic3.2":"Blockchain Coonsultant",
+  "home.name.pic4.2":"Fullstack Director",
+  "home.name.pic5.2":"Fullstack Developper",
+  "home.name.pic6.2":"Fullstack Developper",
+  "home.name.pic7.2":"Fullstack Developper",
+  "home.name.pic8.2":"Bloackchain Consultant",
+  "home.name.pic9.2":"Commercial",
+  "home.name.pic10.2":"Buisness dev.Blockchain",
+  "home.name.pic11.2":"Commercial",
+  "home.name.pic12.2":"Community Manager",
+  "home.name.pic13.2":"Community Manager",
+  "home.name.pic14.2":"Community Manager",
+  "home.name.pic15.2":"Community Manager",
+  "home.name.pic16.2":"Community Manager",
+  "home.name.pic17.2":"3D graphist",
+  "home.name.pic18.2":"Artistic Director",
+
+
   "footer.project":"Projet",
   "footer.project.presentation":"Présentation",
   "footer.project.whitepaper":"Whitepaper",
@@ -44,9 +86,5 @@
   "footer.aboutus.partners":"Our partners",
   "footer.aboutus.beneficiaries":"Ayants-droit",
   "footer.aboutus.contactus":"Contact us"
-  
-
-
-
 
 }

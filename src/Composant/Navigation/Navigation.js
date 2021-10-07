@@ -215,6 +215,7 @@ const Navigation = () => {
     //{ id: 5, text: t('navigation.marketPlace'), link: "/MarketPlace" },
     { id: 6, text: t('navigation.drop'), link: "/Drop" },
     { id: 7, text: t('navigation.blog'), link: "/Blog" }
+    
   ];
 
   //Afficher la class active sur le menu

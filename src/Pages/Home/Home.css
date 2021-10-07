@@ -70,6 +70,47 @@
   }
 }
 
+/**/
+
+.home .Partners table tr td img.blueWhale {
+  width: 25%;
+  height: auto;
+}
+
+.home .Partners table tr td img.odyyana {
+  width: 20%;
+  height: auto;
+}
+
+.home .Partners table {
+  border-collapse: collapse;
+}
+
+.home .Partners table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home .Partners table tr td {
+  display:inline-block;
+  padding: 5px;
+}
+.home .Partners table tr td p.name {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+
+
+.home .Partners {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+/**/
+
 .home .Discover {
   margin-top: 60px;
   width: 80%;
@@ -244,6 +285,50 @@
 }
 .home .update-form input[type="submit"] {
   background: url("../../Illustration/emoji.png");
+}
+
+/*team dashboard css*/
+.home .team-container {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home .team-container h2 p {
+  padding-bottom: 50px;
+}
+
+.home .team-container h2 p.black {
+  position:center;
+  color: black;
+}
+
+.home .team-container h2 p span.red {
+  position:center;
+  color: red;
+}
+
+.home .team-container table {
+  border-collapse: collapse;
+}
+
+.home .team-container table td {
+  /*border: 1px black dashed;*/
+}
+
+.home .team-container table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home .team-container table tr td {
+  display:inline-block;
+  padding: 5px;
+}
+.home .team-container table tr td p.name {
+  padding-top: 10px;
+  font-weight: bold;
 }
 
 /* Responsive  */
