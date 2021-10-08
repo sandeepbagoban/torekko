@@ -16,7 +16,8 @@ function Home({contract}){
     const pathImage = '../../Illustration/'
     //contract.methods.symbol().call().then(console.log);
     //const [contract, setContract] = useState();
-   
+
+    
 
     useEffect(() => {
         if (contract) {
@@ -192,7 +193,7 @@ function Home({contract}){
                             </td>
                             <td data-label="Text14">
                                 <img src={require('./../../Illustration/TeamPictures/pp-13.jpg').default} alt="draw"/>
-                                <p><Trans>home.name.pic14</Trans></p>
+                                <p class="name"><Trans>home.name.pic14</Trans></p>
                                 <p><Trans>home.name.pic14.2</Trans></p>
                             </td>
                             <td data-label="Text15">
@@ -218,8 +219,20 @@ function Home({contract}){
                         </tr>
                     </table>
                     {/*!put dans un autre fichier html*/}
-                </div>
-            
+            </div>
+
+            <div className="pdfDowloader">
+                <h2>Pdf dowloader</h2>
+
+                <form id="form">
+                <input type="text" id="url"></input>
+                <input type="submit" value="Download PDF"></input>
+                </form>
+                {/*
+                <button class="btn btn-primary" id="download">download pdf</button>
+                */}
+            </div>
+
             <div className="update-mail">
                 <div className="update-text">
                     <h2><Trans>home.email.title</Trans></h2>
