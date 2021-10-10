@@ -10,14 +10,11 @@ import { Trans, useTranslation } from 'react-i18next'
 import '../../Illustration/discover-torekko.png'
 
 
-
 function Home({contract}){
     const { t, i18n } = useTranslation()
     const pathImage = '../../Illustration/'
     //contract.methods.symbol().call().then(console.log);
     //const [contract, setContract] = useState();
-
-    
 
     useEffect(() => {
         if (contract) {
@@ -116,9 +113,10 @@ function Home({contract}){
                     </div>
                 </div>
             </div>
-
+            
+            {/* Temporary commentaries
             <div className="team-container">
-                {/*put dans un autre fichier html*/}
+                put dans un autre fichier html
                 <h2>
                     <p class="black"><Trans>home.team.title1</Trans>
                         <span class="red"><Trans>home.team.title2</Trans></span>
@@ -218,20 +216,39 @@ function Home({contract}){
                             </td>
                         </tr>
                     </table>
-                    {/*!put dans un autre fichier html*/}
+                    !put dans un autre fichier html
             </div>
 
             <div className="pdfDowloader">
-                <h2>Pdf dowloader</h2>
 
-                <form id="form">
-                <input type="text" id="url"></input>
-                <input type="submit" value="Download PDF"></input>
-                </form>
-                {/*
-                <button class="btn btn-primary" id="download">download pdf</button>
-                */}
+                <table>
+                        <tr>
+                            <td data-label="Text Left">
+                                <h2 className="allign">Découvrez Torekko</h2>
+                                <p>Téléchargez notre Pitchdeck, notre One-pager et notre Tokenomics en anglais</p>
+                            </td>
+
+                            <td>
+                                <a href="https://www.sejda.com/share/efc42abefe42451d8eb7d8c7304ea058-kh6PMNwM53mf5cNPK_mN2ald8_F-MB2nNpvNcSKB8UCyFKjhjVmoR6mIqcTOuwYr">
+                                <img src={require('./../../Illustration/home/PitchDeck.png').default} alt="draw"/>
+                                </a>
+                            </td>
+                            <td >
+                                <a href="https://www.sejda.com/share/b48735e2b79c47a6820a45f8e1141f62-a-Bwck1saWB3mM8nGrLRyqESzeKEMkgvIofdbAttIpThbj_hr1xeLYwoyC70q3RD">
+                                <img src={require('./../../Illustration/home/One-Page.png').default} alt="draw"/>
+                                </a>
+                            </td>
+                            <td >
+                                <a href="https://www.sejda.com/share/20036164f27e774938bbeea7855f1484a2-98TBfd84h_OVqOi_NrR6hsWiKLMNODbFoQ5kr7C4RQia08Rgdy8NGLgjLMqUw596">
+                                <img src={require('./../../Illustration/home/Tokenomics.png').default} alt="draw"/>
+                                </a>
+                            </td>
+                            
+                        </tr>
+                </table>
             </div>
+            */}
+
 
             <div className="update-mail">
                 <div className="update-text">

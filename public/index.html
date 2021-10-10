@@ -46,24 +46,38 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-  <script src:"https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+
   <script>
-    var form = document.getElementById('form')
-
-    form.addEventListener('submit', function(event) {
-      event.preventDefault()
-
-      var url = document.getElementById('url').value
-
-      var xhr = new XMLHttpRequest()
-
-      xhr.responseType = 'blob'
-
-      whr.onload = function() {
-        saveAs(new Blob[xhr.response], {
-          type:'application/pdf'
-        })
-      }
-    })
+    var file = fs.createReadStream('./public/pdfFiles/devils_advocate.pdf');
+    var stat = fs.statSync('./public/pdfFiles/devils_advocate.pdf');
+    res.setHeader('Content-Length', stat.size);
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', 'attachment; filename=quote.pdf');
+    file.pipe(res);
+    res.send(stat);
   </script>
+  <!--
+  
+    <script src:"https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+  <script>
+    
+    var oReq = new XMLHttpRequest();
+
+    var urlToPdf = "file:///home/gabi/Downloads/devils_advocate.pdf"
+  
+    oReq.open("GET", urlToPdf, true)
+
+    oReq.responseType = "blob";
+
+    oReq.onload = function() {
+      var file = new Blob([oReq.response], {
+        type: 'application/pdf'
+      });
+      saveAs(file, "mypdffilename.pdf");
+      
+    };
+    oReq.send();
+  
+  </script>
+  --->
 </html>
