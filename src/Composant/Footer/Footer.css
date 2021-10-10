@@ -105,6 +105,29 @@ html {
   text-decoration: none;
 }
 
+.socialmedia_logo {
+  width: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.socialmedia_text {
+  display: flex;
+  flex-wrap: wrap;
+  color:white;
+}
+
+.nav__item {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+}
+
+.socialmedia {
+  display: block ruby;
+}
+
 @media screen and (min-width: 24.375em) {
   .legal .legal__links {
     margin-left: auto;
