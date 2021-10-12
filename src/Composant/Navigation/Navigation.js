@@ -12,10 +12,6 @@ import './Navigation.css'
 
 
 
-
-
-
-
 const Navigation = () => {
 
   //Module de traduction
@@ -24,12 +20,12 @@ const Navigation = () => {
   //Element de la bar de menu
   const MenuValues = [
     { id: 1, text: t('navigation.home'), link: "/" },
-    { id: 2, text: t('navigation.buyBooster'), link: "/BuyBooster" },
-    { id: 3, text: t('navigation.myCollection'), link: "/MyCollection" },
-    { id: 4, text: t('navigation.staking'), link: "/Staking" },
-    { id: 5, text: t('navigation.marketPlace'), link: "/MarketPlace" },
-    { id: 6, text: t('navigation.drop'), link: "/Drop" },
-    { id: 7, text: t('navigation.blog'), link: "/Blog" }
+    { id: 2, text: t('navigation.buyBooster'), link: "/" },
+    { id: 3, text: t('navigation.myCollection'), link: "/" },
+    { id: 4, text: t('navigation.staking'), link: "/" },
+    { id: 5, text: t('navigation.marketPlace'), link: "/" },
+    { id: 6, text: t('navigation.drop'), link: "/" },
+    //{ id: 7, text: t('navigation.blog'), link: "/Blog" }
     
   ];
 
@@ -39,7 +35,8 @@ const Navigation = () => {
 
 
   return(
-    <section className="ftco-section navigation sticky">		
+    
+      <section className="ftco-section navigation sticky">		
       <div className="container">
         <div className="row justify-content-end">
           <div className="col">
@@ -56,17 +53,16 @@ const Navigation = () => {
           </button>
           <div className="collapse navbar-collapse" id="ftco-nav">
           <div className="container">
-            <div className="row justify-content-end">
-            <div className="col-md-4 center-block">
+            <div className="justify-content-center">
+            <div className=" center-block">
               <ul className="navbar-nav d-flex justify-content-center liste-menu">
                 {MenuValues.map((val) => (
-                  <li className={activeId === val.id ? "active font-weight-bold nav-item" : "nav-item"} onClick={() => setActiveId(val.id)}>
-                    <a href={val.link} className="nav-link text-nowrap">{val.text}</a>
+                  <li className={activeId === val.id ? " nav-item" : "nav-item"} onClick={() => setActiveId(val.id)}>
+                    <a className="nav-link text-nowrap isDisabled">{val.text}</a>
                   </li>
                 ))}
-              </ul>
-              </div>
-              <div className="col-md-4 flags-icons">
+                <li className="nav-item me-auto">
+                <div className="flags-icons text-nowrap">
                 <ReactCountryFlag
                   className="flag-icon"
                   countryCode="FR"
@@ -87,6 +83,10 @@ const Navigation = () => {
                 />
             
               </div>
+                  </li>
+              </ul>
+              </div>
+              
 
             </div>
             </div>
@@ -94,8 +94,7 @@ const Navigation = () => {
           </div>
         </div>
       </nav>
-	</section>
-
+        </section>
   )   
 }
           
@@ -103,3 +102,50 @@ const Navigation = () => {
 
 
 export default Navigation;
+
+{/*<nav className="navigation">
+      <div className="col">
+            <a className="navbar-brand" href="/home"><img className="navbarbrand" src={Logo} alt="Torekko-logo"/></a>
+          </div>
+      <div class="navbar navbar-light navbar-expand-md justify-content-md-center justify-content-start">
+      <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            
+            <ul class="menu navbar-nav mx-auto text-md-center">
+              {MenuValues.map((val) => (
+                <li className={activeId === val.id ? "active font-weight-bold nav-item" : "nav-item"} onClick={() => setActiveId(val.id)}>
+                  <a href={val.link} className="nav-link text-nowrap">{val.text}</a>
+                  </li>
+              ))}
+                
+            </ul>
+            <ul class="nav navbar-nav justify-content-md-center flex-nowrap">
+                <li class="nav-item"><a class="nav-link" href=""></a>
+                  <ReactCountryFlag
+                    className="flag-icon"
+                    countryCode="FR"
+                    aria-label="France"
+                    onClick={()=>i18next.changeLanguage('fr')}/>
+                </li>
+                <li class="nav-item"><a class="nav-link" href=""></a>
+                  <ReactCountryFlag
+                    className="flag-icon"
+                    countryCode="US"
+                    aria-label="United States"
+                    onClick={()=>i18next.changeLanguage('us')}/>
+                </li>
+                <li class="nav-item"><a class="nav-link" href=""></a>
+                  <ReactCountryFlag
+                  className="flag-icon"
+                  countryCode="JP"
+                  aria-label="Japan"
+                  onClick={()=>i18next.changeLanguage('jp')}/>
+                </li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a> </li>
+            </ul>
+        </div>
+      </div>
+      </nav>*/}
+      

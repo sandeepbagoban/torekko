@@ -61,7 +61,7 @@ useEffect(() => {
       <Router>
           <Switch>
             <Route path='/' exact component={() => <Home contract={contract} />} />
-            <Route path='/BuyBooster' exact component={BuyBooster}/>
+            {/*<Route path='/BuyBooster' exact component={BuyBooster}/>
             <Route path='/BuyBooster/booster:name/:id' exact component={AchatBooster}/>
 
             <Route path='/Mycollection' exact component={MyCollection}/>
@@ -70,13 +70,12 @@ useEffect(() => {
 
             <Route path='/Staking' exact component={Staking}/>
             <Route path='/MarketPlace' exact component={MarketPlace}/>
-            <Route path='/Drop' exact component={Drop}/>
+            <Route path='/Drop' exact component={Drop}/>*/}
 
             <Route path='/' component={Erreur404}/>
             
            
             {/* <Route path='/Collection/:slug' exact component={Collection}/> */}
-            <Route path='/test' component={test}/>
             
             
           </Switch>

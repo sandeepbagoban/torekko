@@ -45,6 +45,11 @@
   padding: 0 5px;
   z-index: 1;
 }
+.isDisabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -53,5 +58,6 @@
   }
   .flags-icons {
     text-align: center;
+    margin-top: 15px;
   }
 }
