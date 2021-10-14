@@ -247,9 +247,7 @@ function Home({contract}){
                         </tr>
                 </table>
             </div>
-            */}
-
-
+            EMAIL PART
             <div className="update-mail">
                 <div className="update-text">
                     <h2><Trans>home.email.title</Trans></h2>
@@ -264,6 +262,13 @@ function Home({contract}){
                         <input type="image" src={btnSignup} alt="Submit" width="100" height="32"></input>
                     </form>
                 </div>
+            </div>
+            */}
+
+            <div className="RoadMap">
+                <h2>RoadMap</h2>
+                
+                <img src={require('./../../Illustration/roadmap.jpg').default} alt="draw"/>
             </div>
         </div>
 

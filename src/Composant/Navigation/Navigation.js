@@ -211,8 +211,8 @@ const Navigation = () => {
     { id: 1, text: t('navigation.home'), link: "/" },
     { id: 2, text: t('navigation.buyBooster'), link: "/BuyBooster" },
     { id: 3, text: t('navigation.myCollection'), link: "/MyCollection" },
-    //{ id: 4, text: t('navigation.staking'), link: "/Staking" },
-    //{ id: 5, text: t('navigation.marketPlace'), link: "/MarketPlace" },
+    { id: 4, text: t('navigation.staking'), link: "/Staking" },
+    { id: 5, text: t('navigation.marketPlace'), link: "/MarketPlace" },
     { id: 6, text: t('navigation.drop'), link: "/Drop" },
     { id: 7, text: t('navigation.blog'), link: "/Blog" }
     

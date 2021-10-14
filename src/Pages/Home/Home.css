@@ -73,12 +73,14 @@
 /**/
 
 .home .Partners table tr td img.blueWhale {
-  width: 25%;
+  width: 15%;
   height: auto;
+  padding-right: 2%;
 }
 
 .home .Partners table tr td img.odyyana {
-  width: 20%;
+  width: 12%;
+  padding-left: 2%;
   height: auto;
 }
 
@@ -100,13 +102,16 @@
   font-weight: bold;
 }
 
+.home .Partners h2{
+  padding-bottom: 10px;
+}
 
 
 .home .Partners {
-  padding-top: 30px;
+  padding-top: 5%;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 5%;
 }
 
 /**/
@@ -115,6 +120,8 @@
   margin-top: 60px;
   width: 80%;
   margin: 0 auto;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 .home .Discover p {
   padding-right: 3%;
@@ -164,6 +171,8 @@
 .home .booster .bloc {
   display: flex;
   align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .home .booster img {
   float: right;
@@ -186,9 +195,11 @@
   background: #e3032d;
   position: relative;
   height: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 50px;
+  padding-top: 50px;
   color: white;
-  padding: 0px 30px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .home .booster-etape {
   /*display: inline-block;*/
@@ -375,7 +386,23 @@
   width:400px;
 }
 
+/*RoadMap*/
 
+.home .RoadMap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.home .RoadMap img{
+  width: 50%;
+  height: auto;
+}
+
+.home .RoadMap h2 {
+  font-size: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
 
 /* Responsive  */
 @media (max-width: 1536px) {
