@@ -48,13 +48,7 @@
   </body>
 
   <script>
-    var file = fs.createReadStream('./public/pdfFiles/devils_advocate.pdf');
-    var stat = fs.statSync('./public/pdfFiles/devils_advocate.pdf');
-    res.setHeader('Content-Length', stat.size);
-    res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', 'attachment; filename=quote.pdf');
-    file.pipe(res);
-    res.send(stat);
+
   </script>
   <!--
   

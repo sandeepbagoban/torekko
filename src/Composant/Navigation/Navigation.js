@@ -40,7 +40,7 @@ const Navigation = () => {
       <div className="container">
         <div className="row justify-content-end">
           <div className="col">
-            <a className="navbar-brand" href="/home"><img className="navbarbrand" src={Logo} alt="Torekko-logo"/></a>
+            <a className="navbar-brand"><img className="navbarbrand" src={Logo} alt="Torekko-logo"/></a>
           </div>
         </div>
         
@@ -61,8 +61,20 @@ const Navigation = () => {
                     <a className="nav-link text-nowrap isDisabled">{val.text}</a>
                   </li>
                 ))}
-                <li className="nav-item me-auto">
-                <div className="flags-icons text-nowrap">
+
+                <li className="nav-item">
+                  <a href="https://medium.com/@torekko" className="animated">
+                    <span className="span1">M</span>
+                    <span className="span2">e</span>
+                    <span className="span3">d</span>
+                    <span className="span4">i</span>
+                    <span className="span5">u</span>
+                    <span className="span6">m</span>
+                  </a>
+                </li>
+              </ul>
+              </div>
+              <div className="col-md-4 flags-icons">
                 <ReactCountryFlag
                   className="flag-icon"
                   countryCode="FR"
@@ -83,8 +95,6 @@ const Navigation = () => {
                 />
             
               </div>
-                  </li>
-              </ul>
               </div>
               
 
@@ -92,7 +102,6 @@ const Navigation = () => {
             </div>
             
           </div>
-        </div>
       </nav>
         </section>
   )   
