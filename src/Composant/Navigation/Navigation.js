@@ -61,8 +61,7 @@ const Navigation = () => {
                     <a className="nav-link text-nowrap isDisabled">{val.text}</a>
                   </li>
                 ))}
-
-                <li className="nav-item">
+                 <li className="nav-item">
                   <a href="https://medium.com/@torekko" className="animated">
                     <span className="span1">M</span>
                     <span className="span2">e</span>
@@ -72,9 +71,8 @@ const Navigation = () => {
                     <span className="span6">m</span>
                   </a>
                 </li>
-              </ul>
-              </div>
-              <div className="col-md-4 flags-icons">
+                <li className="nav-item me-auto">
+                <div className="flags-icons text-nowrap">
                 <ReactCountryFlag
                   className="flag-icon"
                   countryCode="FR"
@@ -95,6 +93,8 @@ const Navigation = () => {
                 />
             
               </div>
+                  </li>
+              </ul>
               </div>
               
 
@@ -102,6 +102,7 @@ const Navigation = () => {
             </div>
             
           </div>
+        </div>
       </nav>
         </section>
   )   
