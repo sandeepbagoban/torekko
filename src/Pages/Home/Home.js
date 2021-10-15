@@ -48,11 +48,12 @@ function Home({contract}){
                             <td className="imgPart">
                                 <video width="100%" height="100%" autoplay="true" muted loop>
                                     <source src={require('../../Illustration/video-1634231933.mp4').default} type="video/mp4" alt="discover"/>
+                                    
                                 </video>
                             </td>
                             <td classeName="textPart">
-                                <h1><Trans>home.discover.title</Trans></h1>
-                                <p><Trans>home.discover</Trans></p>
+                                    <h1><Trans>home.discover.title</Trans></h1>
+                                    <p><Trans>home.discover</Trans></p>
                             </td>
                         </tr>
                     </table>
