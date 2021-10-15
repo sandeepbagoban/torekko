@@ -40,25 +40,22 @@ function Home({contract}){
                 </div>
             </div>
             */}
-            
-            <div className="Partners">
-                <h2><Trans>home.partners.title</Trans></h2>
-                <table>
-                    <tr>
-                        <td>
-                            <img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/>
-                            <img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-
 
             <div className="Discover">
-                <h1><Trans>home.discover.title</Trans></h1>
                 <div className="discover-body">
-                    <img className="openbox" src={require('../../Illustration/discover-torekko2.jpg').default} alt="discover"/>
-                    <p><Trans>home.discover</Trans></p>
+                    <table>
+                        <tr>
+                            <td className="imgPart">
+                                <video width="100%" height="100%" autoplay="true" muted loop>
+                                    <source src={require('../../Illustration/video-1634231933.mp4').default} type="video/mp4" alt="discover"/>
+                                </video>
+                            </td>
+                            <td classeName="textPart">
+                                <h1><Trans>home.discover.title</Trans></h1>
+                                <p><Trans>home.discover</Trans></p>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
             <div className="rarete">
@@ -247,9 +244,7 @@ function Home({contract}){
                         </tr>
                 </table>
             </div>
-            */}
-
-
+            EMAIL PART
             <div className="update-mail">
                 <div className="update-text">
                     <h2><Trans>home.email.title</Trans></h2>
@@ -264,6 +259,92 @@ function Home({contract}){
                         <input type="image" src={btnSignup} alt="Submit" width="100" height="32"></input>
                     </form>
                 </div>
+            </div>
+            */}
+
+            
+            
+            <div className="RoadMap">
+                <h1>RoadMap</h1>
+
+                <div className="ButtonUp">
+                <table>
+                        <tr>
+                            <td>
+                                <button class="button button1"><b><Trans>home.roadmap.button1</Trans>
+                                    <br/><Trans>home.roadmap.button1.1</Trans></b>
+                                    <br/><Trans>home.roadmap.button1.2</Trans>
+                                </button><br/>
+                                <img src={require('./../../Illustration/barre-en-pointille.png').default} alt="draw"/>
+                            </td>
+                            <td>
+                                <button class="button button2"><b><Trans>home.roadmap.button2</Trans>
+                                    <br/><Trans>home.roadmap.button2.1</Trans></b>
+                                    <br/><Trans>home.roadmap.button2.2</Trans>
+                                </button><br/>
+                                <img src={require('./../../Illustration/barre-en-pointille.png').default} alt="draw"/>
+                            </td>
+                            <td>
+                                <button class="button button3"><b><Trans>home.roadmap.button3</Trans>
+                                    <br/><Trans>home.roadmap.button3.1</Trans></b>
+                                    <br/><Trans>home.roadmap.button3.2</Trans>
+                                </button><br/>
+                                <img src={require('./../../Illustration/barre-en-pointille.png').default} alt="draw"/>
+                            </td>
+                            <td>
+                                <button class="button button4"><b><Trans>home.roadmap.button4</Trans>
+                                    <br/><Trans>home.roadmap.button4.1</Trans></b>
+                                    <br/><Trans>home.roadmap.button4.2</Trans>
+                                </button><br/>
+                                <img src={require('./../../Illustration/barre-en-pointille.png').default} alt="draw"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <img src={require('./../../Illustration/roadMapBar.png').default} id="bg" alt="draw"/>
+                
+                <div className="ButtonUp">
+                    <table>
+                        <tr>
+                            <td>
+                                <img className="buttonDown" src={require('./../../Illustration/barre-en-pointille.png').default} alt="draw"/><br/>
+                                <button class="button button5"><b><Trans>home.roadmap.button5</Trans>
+                                    <br/><Trans>home.roadmap.button5.1</Trans></b>
+                                    <br/><Trans>home.roadmap.button5.2</Trans>
+                                </button>
+                            </td>
+                            <td>
+                                <img className="buttonDown"  src={require('./../../Illustration/barre-en-pointille.png').default} alt="draw"/><br/>
+                                <button class="button button6"><b><Trans>home.roadmap.button6</Trans>
+                                    <br/><Trans>home.roadmap.button6.1</Trans></b>
+                                    <br/><Trans>home.roadmap.button6.2</Trans>
+                                </button>
+                            </td>
+                            <td>
+                                <img className="buttonDown"  src={require('./../../Illustration/barre-en-pointille.png').default} alt="draw"/><br/>
+                                <button class="button button7"><b><Trans>home.roadmap.button7</Trans>
+                                    <br/><Trans>home.roadmap.button7.1</Trans></b>
+                                    <br/><Trans>home.roadmap.button7.2</Trans>
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <br/>
+            </div>
+
+            <div className="Partners">
+                <h1><Trans>home.partners.title</Trans></h1>
+                <table>
+                    <tr>
+                        <td>
+                            <img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/>
+                            <img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
 

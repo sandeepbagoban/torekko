@@ -5,7 +5,7 @@
   "navigation.staking":"Staking",
   "navigation.marketPlace":"Marketplace",
   "navigation.drop":"Drop",
-  "navigation.blog":"Blog",
+  "navigation.medium":"Medium",
 
   "home.info": "Torekko of Launched coming soon !",
   "home.moment": "At the moment",
@@ -17,18 +17,18 @@
   "home.boosterPack":"To get your first TOREKKO collectibles, you can go to the booster section and buy your first booster of NFTs. The exact procedure can be found below.<br>Every month and every season, new boosters will be available on the store with new licenses, new characters and many other things!<br>Each torekko booster is in itself an NFT and can be kept, traded or opened. There are several types of torekko boosters with 3, 7 or 20 collectibles.",
   "home.booster.title":"Booster",
   "home.booster.buybooster.title":"Buy a booster :",
-  "home.booster.buybooster":"You can buy the new torekko boosters in the booster section of the site. These boosters can only be bought with the $TRK token. You can also buy them in the marketplace section.<br>You can find a video tutorial detailing this step in the « tutorial » section of torekko.",
+  "home.booster.buybooster":"You can buy the new torekko boosters in the booster section of the site. These boosters can only be bought with the $TRK token. You can also buy them in the marketplace section.",
   "home.booster.changeCollection.title":"Trading and collecting boosters :",
-  "home.booster.changeCollection":"Once you have purchased your booster, you are free to exchange it, keep it or open it. If you want to sell it, go to the « marketplace » section of the torekko website.<br>You can find a video tutorial detailing this step in the « tutorial » section of torekko.",
+  "home.booster.changeCollection":"Once you have purchased your booster, you are free to exchange it, keep it or open it. If you want to sell it, go to the « marketplace » section of the torekko website.",
   "home.booster.openBooster.title":"Open a booster :",
-  "home.booster.openBooster":"To open your booster go to the « my collection » section, click on your booster and click on the « open » button. You will then be able to enjoy the torekko collectibles contained in your booster!<br>You can find a video tutorial detailing this step in the « tutorial » section of torekko.",
+  "home.booster.openBooster":"To open your booster go to the « my collection » section, click on your booster and click on the « open » button. You will then be able to enjoy the torekko collectibles contained in your booster!",
   "home.drop.title":"Drop",
   "home.drop.getTorekko.title":"Holding $TRK in your portfolio :",
-  "home.drop.getTorekko":"To participate in a drop torekko, you must have a certain amount of $TRK in your wallet. The amount of $TRK needed to participate in the drop is indicated in the « drop » section of the site.<br>A video tutorial detailing this step can be found in the « tutorial » section of torekko.",
+  "home.drop.getTorekko":"To participate in a drop torekko, you must have a certain amount of $TRK in your wallet. The amount of $TRK needed to participate in the drop is indicated in the « drop » section of the site.",
   "home.drop.giveEmail.title":"Enter your email and public ETH address :",
-  "home.drop.giveEmail":"Once you have the $TRK in your wallet, all you have to do is enter your email address and your public ETH address to participate in the torekko drop.<br>You can find a video tutorial detailing this step in the « tutorial » section of torekko.",
+  "home.drop.giveEmail":"Once you have the $TRK in your wallet, all you have to do is enter your email address and your public ETH address to participate in the torekko drop.",
   "home.drop.draw.title":"Participate in the draw :",
-  "home.drop.draw":"If you win, you will receive an email with the procedure to follow to get your exclusive torekko collectible.<br>You can find a video tutorial detailing this step in the « tutorial » section of torekko.",
+  "home.drop.draw":"If you win, you will receive an email with the procedure to follow to get your exclusive torekko collectible.",
   "home.email.title":"Get the last updates",
   "home.email.description":"To get the latest information about torekko and the new collectibles available, subscribe to our newsletter!",
   "home.email.enterEmail":"Enter your email",
@@ -85,6 +85,33 @@
   "footer.aboutus":"About us",
   "footer.aboutus.partners":"Our partners",
   "footer.aboutus.beneficiaries":"Ayants-droit",
-  "footer.aboutus.contactus":"Contact us"
+  "footer.aboutus.contactus":"Contact us",
 
+  "home.roadmap.button1":"Torekko project ideation",
+  "home.roadmap.button1.1":"and start of developement",
+  "home.roadmap.button1.2":"Q1 2021",
+
+  "home.roadmap.button2":"Lanch of Torekko founders",
+  "home.roadmap.button2.1":"edition NFTs",
+  "home.roadmap.button2.2":"Q4 2021",
+  
+  "home.roadmap.button3":"Mobile version of Toerkko",
+  "home.roadmap.button3.1":"New blockchain intergration",
+  "home.roadmap.button3.2":"Q1 2022",
+  
+  "home.roadmap.button4":"Launch of Torekko Animapp",
+  "home.roadmap.button4.1":"Torekko Scan",
+  "home.roadmap.button4.2":"Q2-3 2022",
+  
+  "home.roadmap.button5":"Torekko's entity, Team",
+  "home.roadmap.button5.1":"Advisor Formation completed",
+  "home.roadmap.button5.2":"Q3 2021",
+  
+  "home.roadmap.button6":"Mainnet 1.0 Launch",
+  "home.roadmap.button6.1":"IDO & listings $TRK Token distribution",
+  "home.roadmap.button6.2":"Q4 2021",
+  
+  "home.roadmap.button7":"Launch Torekko game",
+  "home.roadmap.button7.1":"Intergation to metaverse",
+  "home.roadmap.button7.2":"Q1 2022"
 }
