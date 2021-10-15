@@ -214,7 +214,6 @@ const Navigation = () => {
     { id: 4, text: t('navigation.staking'), link: "/Staking" },
     { id: 5, text: t('navigation.marketPlace'), link: "/MarketPlace" },
     { id: 6, text: t('navigation.drop'), link: "/Drop" },
-    { id: 7, text: t('navigation.blog'), link: "/Blog" }
     
   ];
 
@@ -228,7 +227,7 @@ const Navigation = () => {
       <div className="container">
         <div className="row justify-content-end">
           <div className="col">
-            <a className="navbar-brand" href="/home"><img className="navbarbrand" src={Logo} alt="Torekko-logo"/></a>
+            <a className="navbar-brand"><img className="navbarbrand" src={Logo} alt="Torekko-logo"/></a>
           </div>
         </div>
         
@@ -249,6 +248,17 @@ const Navigation = () => {
                     <a href={val.link} className="nav-link text-nowrap">{val.text}</a>
                   </li>
                 ))}
+
+                <li className="nav-item">
+                  <a href="https://medium.com/@torekko" className="animated">
+                    <span className="span1">M</span>
+                    <span className="span2">e</span>
+                    <span className="span3">d</span>
+                    <span className="span4">i</span>
+                    <span className="span5">u</span>
+                    <span className="span6">m</span>
+                  </a>
+                </li>
               </ul>
               </div>
               <div className="col-md-4 flags-icons">
