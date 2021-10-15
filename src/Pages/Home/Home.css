@@ -148,7 +148,12 @@
 }*/
 
 .home .discover-body table tr td.imgPart video {
-  min-width: 200px;
+  min-width: 100px;
+}
+
+
+.home .discover-body table tr td.imgPart {
+  
 }
 
 .home .discover-body table tr td.imgPart {
@@ -156,24 +161,47 @@
   height: 100%;
   display:inline-block;
   padding-right: 50px;
+  max-width: 50%;
+  min-width: 300px;
 }
 .home .discover-body table tr td.textPart {
   width: 20%;
   height: 100%;
   display:inline-block;
   padding-left: 50px;
+  min-width: 100px;
+  max-width: 100px;
 }
 
 .home .discover-body table {
+  border-collapse: collapse;
   width: 100%;
   max-width: 100%;
-}/*
+}
 .home .discover-body table tr td {
   display:inline-block;
   padding: 5px;
   width: 50%;
-  height: auto;
-}*/
+  /*height: auto;*/
+}
+
+.home .team-container table {
+  border-collapse: collapse;
+}
+
+.home .team-container table td {
+  /*border: 1px black dashed;*/
+}
+
+.home .team-container table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home .team-container table tr td {
+  display:inline-block;
+  padding: 5px;
+}
 
 
 
