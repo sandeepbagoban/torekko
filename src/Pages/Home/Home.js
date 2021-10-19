@@ -3,8 +3,18 @@ import React,{useState} from 'react'
 import './Home.css'
 import { Trans, useTranslation } from 'react-i18next'
 import Cover from 'react-coverflow'
-
+import ReactPlayer from 'react-player'
 import DesciptionNFT from './DescriptionNFT'
+
+import video1 from '../../Illustration/video/back-video-home2.mp4'
+import video1Slide from '../../Illustration/video/RUBY.mp4'
+import video2Slide from '../../Illustration/video/GOLD.mp4'
+import video3Slide from '../../Illustration/video/MOONSTONE.mp4'
+import video4Slide from '../../Illustration/video/RUBY.mp4'
+import video5Slide from '../../Illustration/video/HOMME_GA.mp4'
+import video6Slide from '../../Illustration/video/SOIREE_GA.mp4'
+import video7Slide from '../../Illustration/video/SURF_GA.mp4'
+import video8Slide from '../../Illustration/video/GEISHA_GA.mp4'
 
 
 
@@ -43,9 +53,15 @@ function Home({contract}){
                         <img className="principale-forteresse" src={require('../../Illustration/forteresse-home.png').default} alt="logo"/>
                     </div>
                     <div>
+                        {/*<ReactPlayer
+                            loop={true}
+                            playing={true}
+                            url={video}
+                        />*/}
                         <video autoPlay loop muted>
-                            <source className="principale-video" src={require('../../Illustration/video/back-video-home.mp4').default} type="video/mp4" />
+                            <source className="principale-video" src={video1} type="video/mp4" />
                         </video>
+                        {/*<ReactPlayer url={video} loop={true} playing={true}/>*/}
                     </div>
                 </div>
             </div>
@@ -60,14 +76,14 @@ function Home({contract}){
                     enableHeading={false}
                     enableScroll={false}
                     active={4}>
-                    <video autoPlay loop muted><source className="slide-video" src={require('../../Illustration/video/RUBY.mp4').default} type="video/mp4" /></video>
-                    <video autoPlay loop muted><source className="slide-video" src={require('../../Illustration/video/GOLD.mp4').default} type="video/mp4" /></video>
-                    <video autoPlay loop muted><source className="slide-video" src={require('../../Illustration/video/MOONSTONE.mp4').default} type="video/mp4" /></video>
-                    <video autoPlay loop muted><source className="slide-video" src={require('../../Illustration/video/ONYX.mp4').default} type="video/mp4" /></video>
-                    <video autoPlay loop muted><source className="slide-video" src={require('../../Illustration/video/HOMME_GA.mp4').default} type="video/mp4" /></video>
-                    <video autoPlay loop muted><source className="slide-video" src={require('../../Illustration/video/SOIREE_GA.mp4').default} type="video/mp4" /></video>
-                    <video autoPlay loop muted><source className="slide-video" src={require('../../Illustration/video/SURF_GA.mp4').default} type="video/mp4" /></video>
-                    <video autoPlay loop muted><source className="slide-video" src={require('../../Illustration/video/GEISHA_GA.mp4').default} type="video/mp4" /></video>
+                    <video autoPlay loop muted><source className="slide-video" src={video1Slide} type="video/mp4" /></video>
+                    <video autoPlay loop muted><source className="slide-video" src={video2Slide} type="video/mp4" /></video>
+                    <video autoPlay loop muted><source className="slide-video" src={video3Slide} type="video/mp4" /></video>
+                    <video autoPlay loop muted><source className="slide-video" src={video4Slide} type="video/mp4" /></video>
+                    <video autoPlay loop muted><source className="slide-video" src={video5Slide} type="video/mp4" /></video>
+                    <video autoPlay loop muted><source className="slide-video" src={video6Slide} type="video/mp4" /></video>
+                    <video autoPlay loop muted><source className="slide-video" src={video7Slide} type="video/mp4" /></video>
+                    <video autoPlay loop muted><source className="slide-video" src={video8Slide} type="video/mp4" /></video>
                 </Cover>
             </div>
             <div className="attribut bloc">
@@ -211,7 +227,7 @@ function Home({contract}){
                         </td>
                     </tr>
                 </table>
-            </div>
+                        </div>
         </div>
     )
 }

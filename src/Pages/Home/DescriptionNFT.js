@@ -4,7 +4,6 @@ import { Trans, useTranslation } from 'react-i18next'
 function DescriptionNFT(param){
 
     const { t, i18n } = useTranslation()
-    console.log()
     return(
         <div class="container">
             <div class="row">
