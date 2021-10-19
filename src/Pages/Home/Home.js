@@ -4,7 +4,7 @@ import './Home.css'
 import { Trans, useTranslation } from 'react-i18next'
 import Cover from 'react-coverflow'
 
-import DesciptionNFT from './DesciptionNFT'
+import DesciptionNFT from './DescriptionNFT'
 
 
 

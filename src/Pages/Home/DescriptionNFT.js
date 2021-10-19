@@ -1,7 +1,7 @@
 import React from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 
-function DesciptionNFT(param){
+function DescriptionNFT(param){
 
     const { t, i18n } = useTranslation()
 
@@ -25,4 +25,4 @@ function DesciptionNFT(param){
     )
 }
 
-export default DesciptionNFT;
+export default DescriptionNFT;
