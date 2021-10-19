@@ -5,6 +5,7 @@
 
 .navigation .navbar-link {
   color: #707070;
+  cursor: not-allowed;
 }
 
 .navigation .logo {

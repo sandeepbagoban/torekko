@@ -33,14 +33,12 @@ function Home({contract}){
     }
 
     const Attributs = [
-        { id: 1, text: "Le socle", activeName: "socle"},
-        { id: 2, text: "Le décor", activeName: "decor"},
-        { id: 3, text: "Le personnage", activeName: "personnage"},
-        { id: 4, text: "Collection", activeName: "collection"},
-        { id: 5, text: "Détails bonus", activeName: "details-bonus"},
-        { id: 6, text: "Statistiques", activeName: "statistiques"},
-        //{ id: 7, text: t('navigation.blog'), link: "/Blog" }
-        
+        { id: 1, text: t('home.attribut.socle.title'), activeName: "socle"},
+        { id: 2, text: t('home.attribut.decor.title'), activeName: "decor"},
+        { id: 3, text: t('home.attribut.personnage.title'), activeName: "personnage"},
+        { id: 4, text: t('home.attribut.collection.title'), activeName: "collection"},
+        { id: 5, text: t('home.attribut.details-bonus.title'), activeName: "details-bonus"},
+        { id: 6, text: t('home.attribut.statistiques.title'), activeName: "statistiques"},        
       ];
 
 
@@ -49,7 +47,7 @@ function Home({contract}){
             <div id="wrap_video">
                 <div id="video_box" className="bg-black">
                     <div id="video_overlays">
-                        <h1 className="principale-title">TOREKKO : PREMIER METAVERSE JAPANIMATION<br/>BIENTÔT DISPONIBLE</h1>
+                        <h1 className="principale-title"><Trans>home.title</Trans></h1>
                         <img className="principale-forteresse" src={require('../../Illustration/forteresse-home.png').default} alt="logo"/>
                     </div>
                     <div>
@@ -87,7 +85,7 @@ function Home({contract}){
                 </Cover>
             </div>
             <div className="attribut bloc">
-                <h1 className="font-weight-bold title">Les Attributs des NFT Torekko</h1>
+                <h1 className="font-weight-bold title"><Trans>home.attribut.title</Trans></h1>
                 <div class="container-fluid attribut-container">
                     <div class="row">
                         <div class="col-sm-3">

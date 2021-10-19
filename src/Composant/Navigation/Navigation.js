@@ -49,7 +49,7 @@ const Navigation = () => {
           <ul class="navbar-nav mr-auto">
                 {MenuValues.map((val) => (
                   <li className={activeId === val.id ? " nav-item" : "nav-item"} onClick={() => setActiveId(val.id)}>
-                    <a href={val.link} className="navbar-link nav-link text-nowrap">{val.text}</a>
+                    <a className="navbar-link nav-link text-nowrap">{val.text}</a>
                   </li>
                 ))}
               
