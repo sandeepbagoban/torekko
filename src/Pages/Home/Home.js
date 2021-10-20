@@ -1,9 +1,8 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 
 import './Home.css'
 import { Trans, useTranslation } from 'react-i18next'
 import Cover from 'react-coverflow'
-import ReactPlayer from 'react-player'
 import DesciptionNFT from './DescriptionNFT'
 
 import video1 from '../../Illustration/video/back-video-home2.mp4'
@@ -26,6 +25,7 @@ function Home({contract}){
     const { t, i18n } = useTranslation()
     const [active, setActive] = useState("socle");
     const [activeId, setActiveId] = useState(1);
+    const [loading, setLoading] = useState(false);
 
     function setAttributElements(activeName, id){
         setActive(activeName); 
@@ -63,7 +63,7 @@ function Home({contract}){
                     </div>
                 </div>
             </div>
-            <div className="discover bg-black bloc">
+            <div className="discover bg-black bloc" id="discover">
                 <h1 className="font-weight-bold text-white title"><Trans>home.discover.title</Trans></h1>
                 <Cover
                     width={960}
@@ -84,7 +84,7 @@ function Home({contract}){
                     <video autoPlay loop muted><source className="slide-video" src={video8Slide} type="video/mp4" /></video>
                 </Cover>
             </div>
-            <div className="attribut bloc">
+            <div className="attribut bloc" id="attribut">
                 <h1 className="font-weight-bold title"><Trans>home.attribut.title</Trans></h1>
                 <div class="container-fluid attribut-container">
                     <div class="row">
@@ -106,7 +106,7 @@ function Home({contract}){
                     </div>
                 </div>
             </div>
-            <div className="boosterdrop">
+            <div className="boosterdrop" id="booster-drop">
                 <div className="booster-etape">
                 <h2 style={{color:'white',fontSize:'30px'}}><Trans>home.booster.title</Trans></h2>
                     <div className="booster-etape1">
@@ -144,7 +144,7 @@ function Home({contract}){
                     </div>
                 </div>
             </div>    
-            <div className="RoadMap">
+            <div className="RoadMap" id="roadmap">
                 <h1>RoadMap</h1>
 
                 <div className="ButtonUp">
@@ -215,7 +215,7 @@ function Home({contract}){
                 <br/>
             </div>
 
-            <div className="Partners">
+            <div className="Partners" id="investor">
                 <h1><Trans>home.partners.title</Trans></h1>
                 <table>
                     <tr>
@@ -225,7 +225,7 @@ function Home({contract}){
                         </td>
                     </tr>
                 </table>
-                        </div>
+            </div>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, Link} from 'react'
 
 import ReactCountryFlag from "react-country-flag"
 import { GiHamburgerMenu } from "@react-icons/all-files/gi/GiHamburgerMenu";
@@ -19,21 +19,18 @@ const Navigation = () => {
 
   //Element de la bar de menu
   const MenuValues = [
-    { id: 1, text: t('navigation.home'), link: "/" },
-    { id: 2, text: t('navigation.buyBooster'), link: "/BuyBooster" },
-    { id: 3, text: t('navigation.myCollection'), link: "/MyCollection" },
-    { id: 4, text: t('navigation.staking'), link: "/Staking" },
-    { id: 5, text: t('navigation.marketPlace'), link: "/MarketPlace" },
-    { id: 6, text: t('navigation.drop'), link: "/Drop" },
-    //{ id: 7, text: t('navigation.blog'), link: "/Blog" }
-    
+    { id: 1, text: t('navigation.discover-torekko'), link: "#discover"},
+    { id: 2, text: t('navigation.attribut'), link: "#attribut"},
+    { id: 3, text: t('navigation.booster-drop'), link: "#booster-drop"},
+    { id: 4, text: t('navigation.roadmap'), link: "#roadmap"},
+    { id: 5, text: t('navigation.investor'), link: "#investor"},    
   ];
 
   //Afficher la class active sur le menu
   const [activeId, setActiveId] = useState();
   const scrollY = useScrollPosition(60 /*fps*/)
 
-
+  
 
   return(
       <nav class={scrollY === 0 ? "navigation navbar navbar-expand-md w-100" : "navigation navbar navbar-expand-md w-100 navScroll"}>
@@ -49,7 +46,7 @@ const Navigation = () => {
           <ul class="navbar-nav mr-auto">
                 {MenuValues.map((val) => (
                   <li className={activeId === val.id ? " nav-item" : "nav-item"} onClick={() => setActiveId(val.id)}>
-                    <a className="navbar-link nav-link text-nowrap">{val.text}</a>
+                    <a href={val.link} id={val.link} className="navbar-link nav-link text-nowrap">{val.text}</a>
                   </li>
                 ))}
               
