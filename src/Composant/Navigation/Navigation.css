@@ -1,3 +1,62 @@
+/* !Annimation medium */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@699;700&display=swap");
+:root {
+  --lower: 100;
+  --upper: 700;
+}
+.navigation body {
+  min-height: 100vh;
+}
+.navigation a.animated {
+  width: auto;
+  height: 50px;
+  z-index:0;
+  padding-top: 10%;
+  display: block;
+  
+  font-family: 'Roboto Mono', monospace;
+  font-size: 7rem;
+  white-space: nowrap;
+  font-variation-settings: 'wght' var(--lower);
+  margin: 0;
+}
+.navigation a.animated span {
+  animation: rise 2.25s infinite ease-in-out;
+  animation-delay: calc((var(--index) - 6) * 0.225s);
+  display: inline-block;
+  vertical-align: top;
+}
+.navigation a.animated span {
+  color:red;
+  font-size: 20px !important;
+}
+.navigation a.animated span.span1 {
+  --index: 0; --alpha-l: 0.5; --alpha-u: 1;
+}
+.navigation a.animated span.span2 {
+  --index: 1; --alpha-l: 0.5; --alpha-u: 1;
+}
+.navigation a.animated span.span3 {
+  --index: 2; --alpha-l: 0.5; --alpha-u: 1;
+}
+.navigation a.animated span.span4 {
+  --index: 3; --alpha-l: 0.5; --alpha-u: 1;
+}
+.navigation a.animated span.span5 {
+  --index: 4; --alpha-l: 0.5; --alpha-u: 1;
+}
+.navigation a.animated span.span6 {
+  --index: 5; --alpha-l: 0.5; --alpha-u: 1;
+}
+
+@keyframes rise {
+  50% {
+    font-variation-settings: 'wght' var(--upper);
+    transform: translate(0, -15%);
+  }
+}
+/* !Annimation medium */
+
 .navigation {
   z-index: 100;
   background-color: white;

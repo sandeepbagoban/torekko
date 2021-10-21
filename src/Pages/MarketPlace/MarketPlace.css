@@ -1,8 +1,8 @@
 .MarketPlace {
   margin-top: 0px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   background-color: #e3032d;
-  margin-top: 120px;
+  /*margin-top: 120px;*/
 }
 .MarketPlace h1 {
   padding-top: 40px;
@@ -15,16 +15,84 @@
 
 .MarketPlace .select {
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 100px;
+  margin-right: 20px;
 }
+
+.MarketPlace .block-sorting {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 50px;
+  color: white;
+  background-color: #e3032d;
+}
+
+.MarketPlace .sorting {
+  padding-left: 50px;
+}
+.MarketPlace .sorting div {
+  float: left;
+  clear: none;
+}
+
+
+.MarketPlace .block-card r {
+  color: black;
+}
+
+
+.MarketPlace .card .text p {
+  padding-top: 10px;
+  padding-left: 7%;
+  color:white;
+  text-align: left;
+}
+.MarketPlace .fields {
+  padding-right: 7%;
+  display: flex;
+  justify-content: right;
+  align-items: stretch;
+}
+.MarketPlace .selectBig {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  height: auto;
+}
+/*
+.css-1uccc91-singleValue {
+  color : white;
+}
+.css-yk16xz-control {
+  color:black;
+  background-color: black;
+}
+.css-2b097c-container {
+  width: 200px;
+  height: auto;
+}
+*/
+
+.MarketPlace .card .results p {
+  text-align: left;
+  width: auto;
+  height: auto;
+  float: left;
+}
+
 .MarketPlace .caracteristique {
   margin-top: 50px;
   width: 16%;
 }
 .MarketPlace .block-card {
   display: flex;
+  padding-right: 50px;
 }
 .MarketPlace .block-card .card {
   width: 90%;
   float: left;
+  color: #e3032d;
+  background-color: #e3032d;
+  border-color: #e3032d;
 }

@@ -70,14 +70,64 @@
   }
 }
 
+/**/
+
+.home .Partners table tr td img.blueWhale {
+  width: 15%;
+  height: auto;
+  padding-right: 2%;
+}
+
+.home .Partners table tr td img.odyyana {
+  width: 12%;
+  padding-left: 2%;
+  height: auto;
+}
+
+.home .Partners table {
+  border-collapse: collapse;
+}
+
+.home .Partners table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home .Partners table tr td {
+  display:inline-block;
+  padding: 5px;
+}
+.home .Partners table tr td p.name {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.home .Partners h1 {
+  padding-bottom: 10px;
+}
+
+
+.home .Partners {
+  /*padding-top: 5%;*/
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5%;
+}
+
+.home .Discover h1{
+  padding-bottom: 5%;
+}
 .home .Discover {
+  padding-top: 5%;
   margin-top: 60px;
   width: 80%;
   margin: 0 auto;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 .home .Discover p {
-  padding-right: 3%;
-  padding-left: 3%;
+  padding-right: 10%;
+  padding-left: 10%;
   text-align: justify;
   margin-top: 3%;
 }
@@ -86,10 +136,46 @@
   display: flex;
   align-items: stretch;
 }
+
+
+.home .discover-body table {
+  border-collapse: collapse;
+}/*
+.home .discover-body table td {
+  border: 1px black dashed;
+}*/
+
+.home .discover-body table tr td.imgPart {
+  width: 100%;
+  height: 100%;
+  display:inline-block;
+  padding-right: 50px;
+}
+.home .discover-body table tr td.textPart {
+  width: 20%;
+  height: 100%;
+  display:inline-block;
+  padding-left: 50px;
+}
+
+.home .discover-body table {
+  width: 100%;
+  max-width: 100%;
+}/*
+.home .discover-body table tr td {
+  display:inline-block;
+  padding: 5px;
+  width: 50%;
+  height: auto;
+}*/
+
+
+
+
 .home .openbox {
-  min-width: 200px;
-  width: 270%;
-  max-width: 300px;
+  min-width: 20%;
+  /*width: 270%;*/
+  max-width: 120%;
   height: 200%;
   margin-top: -2%;
 }
@@ -123,6 +209,8 @@
 .home .booster .bloc {
   display: flex;
   align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .home .booster img {
   float: right;
@@ -145,9 +233,11 @@
   background: #e3032d;
   position: relative;
   height: 100%;
-  padding-bottom: 5%;
+  padding-bottom: 50px;
+  padding-top: 50px;
   color: white;
-  padding: 0px 30px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .home .booster-etape {
   /*display: inline-block;*/
@@ -244,6 +334,166 @@
 }
 .home .update-form input[type="submit"] {
   background: url("../../Illustration/emoji.png");
+}
+
+/*team dashboard*/
+.home .team-container {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home .team-container h2 p {
+  padding-bottom: 50px;
+}
+
+.home .team-container h2 p.black {
+  position:center;
+  color: black;
+}
+
+.home .team-container h2 p span.red {
+  position:center;
+  color: red;
+}
+
+.home .team-container table {
+  border-collapse: collapse;
+}
+
+.home .team-container table td {
+  /*border: 1px black dashed;*/
+}
+
+.home .team-container table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home .team-container table tr td {
+  display:inline-block;
+  padding: 5px;
+}
+
+.home .team-container table tr td img {
+  width:80%;
+}
+
+.home .team-container table tr td p.name {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+/*PDF*/
+
+.home .pdfDowloader {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display:inline-block;
+}
+
+.home .pdfDowloader h2 {
+  padding-top: 50px;
+}
+
+.home .pdfDowloader img {
+  width: 40%;
+}
+
+
+
+.home .pdfDowloader table {
+  border-collapse: collapse;
+}
+/*
+.home .pdfDowloader table td {
+  border: 1px black dashed;
+}
+*/
+.home .pdfDowloader table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home .pdfDowloader table tr td {
+  display:inline-block;
+  padding: 5px;
+  width:400px;
+}
+
+/*RoadMap*/
+.home .RoadMap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.home .RoadMap img{
+  width: 50%;
+  height: auto;
+}
+.home .RoadMap h1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #e7e7e7;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #f44336;
+  color: white;
+  border: 2px solid black;
+}
+#bg {
+  position:static; 
+  top: 0; 
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.home .RoadMap .ButtonUp {
+  display: flex;
+  align-items: stretch;
+  text-align: justify;
+  justify-content: center;
+  /*padding-bottom: 5%;
+  padding-top: 5%;*/
+}
+
+
+.home .RoadMap .ButtonUp {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.home .RoadMap .ButtonUp table tr td {
+  text-align: center;
+}
+.home .RoadMap .ButtonUp table tr td img {
+  width: 20%;
+  height: auto;
+}
+
+.home .RoadMap .ButtonUp table tr td img.buttonDown {
+  width: 15%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .home .RoadMap .button {
+      width: 100%;
+  }
 }
 
 /* Responsive  */

@@ -20,6 +20,8 @@ import test from './Pages/test'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import { useTranslation, initReactI18next} from "react-i18next"; 
 import {connexion} from './Composant/Walletconnection'
+import { PDFNet } from '@pdftron/pdfnet-node';
+
  
 var Web3 = require('web3');
 
@@ -49,6 +51,7 @@ function App() {
     //connexion()
 }, [])
 
+
 useEffect(() => {
 }, [contract])
   
@@ -70,6 +73,7 @@ useEffect(() => {
             <Route path='/Drop' exact component={Drop}/>
 
             <Route path='/' component={Erreur404}/>
+            
            
             {/* <Route path='/Collection/:slug' exact component={Collection}/> */}
             <Route path='/test' component={test}/>
