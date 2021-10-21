@@ -7,6 +7,12 @@ import './Home.css'
 import Slide from '../../Composant/Slideshow/Slideshow'
 import { Trans, useTranslation } from 'react-i18next'
 
+import Discord from '../../Illustration/Icon/discorde.png'
+import Telegram from '../../Illustration/Icon/telegram.png'
+import Linkedin from '../../Illustration/Icon/linkedin.png'
+import Instagram from '../../Illustration/Icon/instagram.png'
+import Twitter from '../../Illustration/Icon/twitter.png'
+
 import '../../Illustration/discover-torekko.png'
 
 
@@ -346,7 +352,16 @@ function Home({contract}){
                     </tr>
                 </table>
             </div>
+            <div class="icon-bar">
+                <a className="socialmedia" href="https://www.instagram.com/torekkocom/"><img className="socialmedia_logo" src={Instagram} alt="Instagram" /></a>
+                <a className="socialmedia" href="https://twitter.com/torekkocom?s=20"><img className="socialmedia_logo" src={Twitter} alt="Twitter" /></a>
+                <a className="socialmedia" href="https://www.linkedin.com/company/torekko/"><img className="socialmedia_logo" src={Linkedin} alt="Linkedin" /></a>
+                <a className="socialmedia" href="https://t.me/torekko"><img className="socialmedia_logo" src={Telegram} alt="Telegram" /></a>
+                <a className="socialmedia" href="https://t.me/torekkoann"><img className="socialmedia_logo" src={Telegram} alt="Telegram" /></a>
+                <a className="socialmedia" href="https://discord.gg/Tnwtu5YjDA"><img className="socialmedia_logo" src={Discord} alt="Discord" /></a>
+            </div>
         </div>
+        
 
     )
 }
