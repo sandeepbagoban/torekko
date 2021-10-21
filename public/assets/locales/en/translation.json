@@ -52,8 +52,8 @@
   "home.attribut.decor.title":"The decor",
   "home.attribut.personnage.title":"The character",
   "home.attribut.collection.title":"Collection",
-  "home.attribut.statistiques.title":"Bonus details",
-  "home.attribut.details-bonus.title":"Statistics",
+  "home.attribut.statistiques.title":"Statistics",
+  "home.attribut.details-bonus.title":"Bonus details",
 
 
   "home.team.title1":"Torekko",
@@ -119,7 +119,7 @@
   "home.roadmap.button2.2":"Q4 2021",
   
   "home.roadmap.button3":"Mobile version of Torekko",
-  "home.roadmap.button3.1":"New blockchain intergration",
+  "home.roadmap.button3.1":"New blockchain integration",
   "home.roadmap.button3.2":"Q1 2022",
   
   "home.roadmap.button4":"Launch of Torekko Animapp",

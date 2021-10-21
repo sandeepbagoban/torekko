@@ -15,6 +15,13 @@ import video6Slide from '../../Illustration/video/SOIREE_GA.mp4'
 import video7Slide from '../../Illustration/video/SURF_GA.mp4'
 import video8Slide from '../../Illustration/video/GEISHA_GA.mp4'
 
+import Discord from '../../Illustration/Icon/discorde.png'
+import Telegram from '../../Illustration/Icon/telegram.png'
+import Linkedin from '../../Illustration/Icon/linkedin.png'
+import Instagram from '../../Illustration/Icon/instagram.png'
+import Twitter from '../../Illustration/Icon/twitter.png'
+
+import '../../Illustration/discover-torekko.png'
 
 
 function Home({contract}){
@@ -38,10 +45,29 @@ function Home({contract}){
         { id: 3, text: t('home.attribut.personnage.title'), activeName: "personnage"},
         { id: 4, text: t('home.attribut.collection.title'), activeName: "collection"},
         { id: 5, text: t('home.attribut.details-bonus.title'), activeName: "details-bonus"},
-        { id: 6, text: t('home.attribut.statistiques.title'), activeName: "statistiques"},        
+        { id: 6, text: t('home.attribut.statistiques.title'), activeName: "statistiques"},     
       ];
 
-
+    /*
+    const Search = () => {
+        const [showResults, setShowResults] = React.useState(false)
+        const onClick = () => setShowResults(true)
+        return (
+        <div>
+            <input type="submit" value="Search" onClick={onClick} />
+            { showResults ? <Results /> : null }
+        </div>
+        )
+    }
+    
+    const Results = () => (
+        <div id="results" className="search-results">
+        Some Results
+        </div>
+    )
+  
+  ReactDOM.render(<Search />, document.querySelector("#container"))
+*/
     return(
         <div className="home">
             <div id="wrap_video">
@@ -147,7 +173,7 @@ function Home({contract}){
             <div className="RoadMap" id="roadmap">
                 <h1>RoadMap</h1>
 
-                <div className="ButtonUp">
+                <div className="ButtonUp1">
                 <table>
                         <tr>
                             <td>
@@ -184,9 +210,9 @@ function Home({contract}){
 
                 <img src={require('../../Illustration/roadMapBar.png').default} id="bg" alt="draw"/>
                 
-                <div className="ButtonUp">
-                    <table>
-                        <tr>
+                <div className="ButtonUp2">
+                    <table className="down">
+                        <tr className="downtr">
                             <td>
                                 <img className="buttonDown" src={require('../../Illustration/barre-en-pointille.png').default} alt="draw"/><br/>
                                 <button class="button button5"><b><Trans>home.roadmap.button5</Trans>
@@ -220,16 +246,24 @@ function Home({contract}){
                 <table>
                     <tr>
                         <td>
-                            <img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/>
-                            <img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/>
+                            <a href='https://moonwhale.ventures'><img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/></a>
+                            <a href='https://oddiyana.ventures'><img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/></a>
+                            {/*<a href='https://lavender.capital'><img class="blueWhale" src={require('../../Illustration/partenaire/lavender.png').default} alt="draw"/></a>
+                            <a href='https://roseon.finance'><img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/></a>*/}
                         </td>
                     </tr>
                 </table>
             </div>
+            <div class="icon-bar">
+                <a className="socialmedia" href="https://www.instagram.com/torekkocom/"><img className="socialmedia_logo" src={Instagram} alt="Instagram" /></a>
+                <a className="socialmedia" href="https://twitter.com/torekkocom?s=20"><img className="socialmedia_logo" src={Twitter} alt="Twitter" /></a>
+                <a className="socialmedia" href="https://www.linkedin.com/company/torekko/"><img className="socialmedia_logo" src={Linkedin} alt="Linkedin" /></a>
+                <a className="socialmedia" href="https://t.me/torekko"><img className="socialmedia_logo" src={Telegram} alt="Telegram" /></a>
+                <a className="socialmedia" href="https://t.me/torekkoann"><img className="socialmedia_logo" src={Telegram} alt="Telegram" /></a>
+                <a className="socialmedia" href="https://discord.gg/Tnwtu5YjDA"><img className="socialmedia_logo" src={Discord} alt="Discord" /></a>
+            </div>
         </div>
     )
 }
-
-
 
 export default Home;
