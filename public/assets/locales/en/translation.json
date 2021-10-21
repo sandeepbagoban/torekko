@@ -7,6 +7,13 @@
   "navigation.drop":"Drop",
   "navigation.medium":"Medium",
 
+  "navigation.discover-torekko":"Discover Torekko",
+  "navigation.attribut":"The NFTs attributes",
+  "navigation.booster-drop":"Booster & Drop",
+  "navigation.roadmap":"Roadmap",
+  "navigation.investor":"Investors and partners",
+
+  "home.title":"TOREKKO: FIRST METAVERSE JAPANIMATION<br/>SOON AVAILABLE",
   "home.info": "Torekko of Launched coming soon !",
   "home.moment": "At the moment",
   "home.partners.title":"Investors and partners",
@@ -33,7 +40,7 @@
   "home.email.description":"To get the latest information about torekko and the new collectibles available, subscribe to our newsletter!",
   "home.email.enterEmail":"Enter your email",
   
-  
+  "home.attribut.title":"The Attributes of the Torekko NFTs",
   "home.attribut.socle":"<strong>There are 4 rarities for the bases:<br/>#Ruby</strong><br/>Common, 90% chance of getting an NFT with this base in a 3 NFT booster<br/><strong>#Gold</strong><br/>Rare, 9% chance of getting an NFT with this base in a 3 NFT booster<br/><strong>#Moonstone</strong><br/>Very rare, 1% chance of getting an NFT with this base in a 3 NFT booster<br/><strong>#Onyx</strong><br/>Ultra rare, not found in a booster",
   "home.attribut.decor":"<strong>The backgrounds of our NFTs are unique to each collection and can be common to several characters.</strong><br/>These sets represent most of the time emblematic places of the japanimation.<br/><strong>All our sets are animated one by one manually by our artists and graphic designers.</strong><br/>Some sets may be rarer than others because they are produced in smaller quantities. There can also be several versions of the same set with major or minor modifications making them rarer (for example, by changing the color of the sky, the season, the weather, ...)",
   "home.attribut.personnage":"<strong>The overwhelming majority of Torekko NFTs represent living characters or entities.</strong><br/>These characters are all from the world of japanimation.<br/><strong>All our characters are animated one by one manually by our artists and graphic designers.</strong><br/>Our characters can be common to several NFTs while presenting major or minor changes impacting their rarity and statistics. For example, some of our NFTs may change clothes, aura, age, items held, animation, themes, ...",
@@ -41,6 +48,12 @@
   "home.attribut.statistiques":"In the Torekko metaverse, NFT collectibles will correspond to playable characters in the game. Each character has its own stats that will affect its skills in the game.<br/><strong>The statistics are as follows: </strong><br/><br/>- Attack<br/>- Special attack<br/>- Defense<br/>- Special defense<br/>- Speed <br/>- Life Points<br/>- Type(s)<br/><br/>The total number of points divided between these 6 statistics depends on the character's base.",
   "home.attribut.details-bonus":"<strong>Some NFT Torekko have bonus features. </strong><br/><br/>In general, it is visual details that differentiate them from other NFT Torekko.<br/>These visual details include:<br/><strong>- Airdrop Parachute</strong> (corresponding to a special distribution)<br/><strong>- Logo or distinctive sign from a Torekko partner</strong> (corresponding to a partnership between Torekko and another organization)<br/><strong>-Anomaly in the animation or in visual details</strong> (corresponding to very rare versions of some NFTs)<br/>- And many other more or less discreet details!",
 
+  "home.attribut.socle.title":"The base",
+  "home.attribut.decor.title":"The decor",
+  "home.attribut.personnage.title":"The character",
+  "home.attribut.collection.title":"Collection",
+  "home.attribut.statistiques.title":"Bonus details",
+  "home.attribut.details-bonus.title":"Statistics",
 
 
   "home.team.title1":"Torekko",

@@ -7,6 +7,13 @@
     "navigation.drop":"Drop",
     "navigation.medium":"Medium",
 
+    "navigation.discover-torekko":"Découvrir Torekko",
+    "navigation.attribut":"Les attributs NFTs",
+    "navigation.booster-drop":"Booster & Drop",
+    "navigation.roadmap":"Roadmap",
+    "navigation.investor":"Investisseurs et partenaires",
+
+    "home.title":"TOREKKO : PREMIER METAVERSE JAPANIMATION<br/>BIENTÔT DISPONIBLE",
     "home.info": "Lancement de Torekko à venir !",
     "home.moment": "En ce moment",
     "home.partners.title":"Investisseurs et partenaires",
@@ -33,7 +40,7 @@
     "home.email.description":"Pour obtenir les dernières informations concernant torekko et les nouveaux collectibles disponibles, inscrivez-vous à notre newsletter !",
     "home.email.enterEmail":"Entrez votre email",
     
-    
+    "home.attribut.title":"Les Attributs des NFT Torekko",
     "home.attribut.socle":"<strong>Il existe 4 raretés pour les socles :<br/>#Ruby</strong><br/>Commun, 90% de chance d’obtenir un NFT avec ce socle dans un booster de 3 NFT<br/><strong>#Gold</strong><br/>Rare, 9% de chance d’obtenir un NFT avec ce socle dans un booster de 3 NFT<br/><strong>#Moonstone</strong><br/>Très rare, 1% de chance d’obtenir un NFT avec ce socle dans un booster de 3 NFT<br/><strong>#Onyx</strong><br/>Ultra rare, introuvable dans un booster",
     "home.attribut.decor":"<strong>Les décors de nos NFTs sont uniques à chaque collection et peuvent être communs à plusieurs personnages.</strong><br/>Ces décors représentent la plupart du temps des lieux emblématiques de la japanimation.<br/><strong>Tous nos décors sont animés un à un manuellement par nos artistes et graphistes.</strong><br/>Certains décors peuvent être plus rares que d’autres car produits en moins grande quantité. Il peut également exister plusieurs versions d’un même décor avec des modifications majeurs ou plus mineurs les rendant plus rares (par exemple, en changeant la couleur du ciel, la saison, la météo, …)",
     "home.attribut.personnage":"<strong>L’écrasante majorité des NFT Torekko représentent des personnages ou entités vivantes.</strong><br/>Ces personnages sont tous issus du monde de la japanimation.<br/><strong>Tous nos personnages sont animés un à un manuellement par nos artistes et graphistes.</strong><br/>Nos personnages peuvent être communs à plusieurs NFTs tout en présentant des changement majeurs ou mineurs impactant leur rareté et leurs statistiques. Par exemple, certains de nos NFT pourront changer de vêtements, d’aura, d’age, d’objets détenus, d’animation, de thématiques, …",
@@ -41,6 +48,12 @@
     "home.attribut.statistiques":"Dans le métaverse de Torekko, les collectibles NFT correspondront à des personnages jouables dans le jeu. Chaque personnage possède des statistiques qui lui sont propres et qui impacteront ses compétences dans le jeu. <br/><strong>Les statistiques sont les suivantes : </strong><br/><br/>- Attaque<br/>- Attaque spéciale<br/>- Défense<br/>- Défense spéciale<br/>- Vitesse <br/>- Points de Vie<br/>- Type(s)<br/><br/>Le nombre de points total répartis entre ces 6 statistiques dépend du socle du personnage.",
     "home.attribut.details-bonus":"<strong>Certains NFT Torekko possèdent des caractéristiques bonus. </strong><br/><br/>En général, ce sont des détails visuels qui les différencient des autres NFT Torekko.<br/>Parmi ces détails visuels, on peut citer :<br/><strong>- Parachute du Airdrop</strong> (correspondant à une distribution spéciale)<br/><strong>- Logo ou signe distinctif issu d’un partenaire de Torekko</strong> (correspondant à un partenariat entre Torekko et une autre organisation)<br/><strong>-Anomalie dans l’animation ou dans des détails visuels</strong> (correspondant à des versions très rares de certains NFT)<br/>- Et bien d’autres détails plus ou moins discrets !",
 
+    "home.attribut.socle.title":"Le socle",
+    "home.attribut.decor.title":"Le décor",
+    "home.attribut.personnage.title":"Le personnage",
+    "home.attribut.collection.title":"Collection",
+    "home.attribut.statistiques.title":"Détails bonus",
+    "home.attribut.details-bonus.title":"Statistiques",
 
     "home.team.title1":"Torekko",
     "home.team.title2":" Team",

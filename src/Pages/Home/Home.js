@@ -1,9 +1,8 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 
 import './Home.css'
 import { Trans, useTranslation } from 'react-i18next'
 import Cover from 'react-coverflow'
-import ReactPlayer from 'react-player'
 import DesciptionNFT from './DescriptionNFT'
 
 import video1 from '../../Illustration/video/back-video-home2.mp4'
@@ -26,6 +25,7 @@ function Home({contract}){
     const { t, i18n } = useTranslation()
     const [active, setActive] = useState("socle");
     const [activeId, setActiveId] = useState(1);
+    const [loading, setLoading] = useState(false);
 
     function setAttributElements(activeName, id){
         setActive(activeName); 
@@ -33,14 +33,12 @@ function Home({contract}){
     }
 
     const Attributs = [
-        { id: 1, text: "Le socle", activeName: "socle"},
-        { id: 2, text: "Le décor", activeName: "decor"},
-        { id: 3, text: "Le personnage", activeName: "personnage"},
-        { id: 4, text: "Collection", activeName: "collection"},
-        { id: 5, text: "Détails bonus", activeName: "details-bonus"},
-        { id: 6, text: "Statistiques", activeName: "statistiques"},
-        //{ id: 7, text: t('navigation.blog'), link: "/Blog" }
-        
+        { id: 1, text: t('home.attribut.socle.title'), activeName: "socle"},
+        { id: 2, text: t('home.attribut.decor.title'), activeName: "decor"},
+        { id: 3, text: t('home.attribut.personnage.title'), activeName: "personnage"},
+        { id: 4, text: t('home.attribut.collection.title'), activeName: "collection"},
+        { id: 5, text: t('home.attribut.details-bonus.title'), activeName: "details-bonus"},
+        { id: 6, text: t('home.attribut.statistiques.title'), activeName: "statistiques"},        
       ];
 
 
@@ -49,7 +47,7 @@ function Home({contract}){
             <div id="wrap_video">
                 <div id="video_box" className="bg-black">
                     <div id="video_overlays">
-                        <h1 className="principale-title">TOREKKO : PREMIER METAVERSE JAPANIMATION<br/>BIENTÔT DISPONIBLE</h1>
+                        <h1 className="principale-title"><Trans>home.title</Trans></h1>
                         <img className="principale-forteresse" src={require('../../Illustration/forteresse-home.png').default} alt="logo"/>
                     </div>
                     <div>
@@ -65,7 +63,7 @@ function Home({contract}){
                     </div>
                 </div>
             </div>
-            <div className="discover bg-black bloc">
+            <div className="discover bg-black bloc" id="discover">
                 <h1 className="font-weight-bold text-white title"><Trans>home.discover.title</Trans></h1>
                 <Cover
                     width={960}
@@ -86,8 +84,8 @@ function Home({contract}){
                     <video autoPlay loop muted><source className="slide-video" src={video8Slide} type="video/mp4" /></video>
                 </Cover>
             </div>
-            <div className="attribut bloc">
-                <h1 className="font-weight-bold title">Les Attributs des NFT Torekko</h1>
+            <div className="attribut bloc" id="attribut">
+                <h1 className="font-weight-bold title"><Trans>home.attribut.title</Trans></h1>
                 <div class="container-fluid attribut-container">
                     <div class="row">
                         <div class="col-sm-3">
@@ -108,7 +106,7 @@ function Home({contract}){
                     </div>
                 </div>
             </div>
-            <div className="boosterdrop">
+            <div className="boosterdrop" id="booster-drop">
                 <div className="booster-etape">
                 <h2 style={{color:'white',fontSize:'30px'}}><Trans>home.booster.title</Trans></h2>
                     <div className="booster-etape1">
@@ -146,7 +144,7 @@ function Home({contract}){
                     </div>
                 </div>
             </div>    
-            <div className="RoadMap">
+            <div className="RoadMap" id="roadmap">
                 <h1>RoadMap</h1>
 
                 <div className="ButtonUp">
@@ -217,7 +215,7 @@ function Home({contract}){
                 <br/>
             </div>
 
-            <div className="Partners">
+            <div className="Partners" id="investor">
                 <h1><Trans>home.partners.title</Trans></h1>
                 <table>
                     <tr>
@@ -227,7 +225,7 @@ function Home({contract}){
                         </td>
                     </tr>
                 </table>
-                        </div>
+            </div>
         </div>
     )
 }
