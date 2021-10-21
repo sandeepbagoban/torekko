@@ -49,6 +49,17 @@ const Navigation = () => {
                     <a href={val.link} id={val.link} className="navbar-link nav-link text-nowrap">{val.text}</a>
                   </li>
                 ))}
+
+                <li className="nav-item">
+                  <a href="https://medium.com/@torekko" className="animated">
+                    <span className="span1">M</span>
+                    <span className="span2">e</span>
+                    <span className="span3">d</span>
+                    <span className="span4">i</span>
+                    <span className="span5">u</span>
+                    <span className="span6">m</span>
+                  </a>
+                </li>
               
           </ul>
       </div>
