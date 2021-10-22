@@ -4,6 +4,7 @@ import './Home.css'
 import { Trans, useTranslation } from 'react-i18next'
 import Cover from 'react-coverflow'
 import DesciptionNFT from './DescriptionNFT'
+import btnSignup from '../../Illustration/btn-signup.png'
 
 import video1 from '../../Illustration/video/back-video-home2.mp4'
 import video1Slide from '../../Illustration/video/RUBY.mp4'
@@ -20,6 +21,7 @@ import Telegram from '../../Illustration/Icon/telegram.png'
 import Linkedin from '../../Illustration/Icon/linkedin.png'
 import Instagram from '../../Illustration/Icon/instagram.png'
 import Twitter from '../../Illustration/Icon/twitter.png'
+import Medium from '../../Illustration/Icon/medium.png'
 
 import '../../Illustration/discover-torekko.png'
 
@@ -373,7 +375,7 @@ function Home({contract}){
                             
                         </tr>
                 </table>
-            </div>*/}
+            </div>
             <div className="update-mail">
                 <div className="update-text">
                     <h2><Trans>home.email.title</Trans></h2>
@@ -388,28 +390,28 @@ function Home({contract}){
                         <input type="image" src={btnSignup} alt="Submit" width="100" height="32"></input>
                     </form>
                 </div>
-            </div>
+            </div>*/}
 
             <div className="Partners" id="investor">
                 <h1><Trans>home.partners.title</Trans></h1>
                 <table>
                     <tr>
                         <td>
-                            <a href='https://moonwhale.ventures'><img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/></a>
-                            <a href='https://oddiyana.ventures'><img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/></a>
-                            {/*<a href='https://lavender.capital'><img class="blueWhale" src={require('../../Illustration/partenaire/lavender.png').default} alt="draw"/></a>
-                            <a href='https://roseon.finance'><img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/></a>*/}
+                            <a href='https://moonwhale.ventures' target="_blank"><img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/></a>
+                            <a href='https://oddiyana.ventures' target="_blank"><img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/></a>
+                            {/*<a href='https://lavender.capital' target="_blank"><img class="blueWhale" src={require('../../Illustration/partenaire/lavender.png').default} alt="draw"/></a>
+                            <a href='https://roseon.finance' target="_blank"><img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/></a>*/}
                         </td>
                     </tr>
                 </table>
             </div>
             <div class="icon-bar">
-                <a className="socialmedia" href="https://www.instagram.com/torekkocom/"><img className="socialmedia_logo" src={Instagram} alt="Instagram" /></a>
-                <a className="socialmedia" href="https://twitter.com/torekkocom?s=20"><img className="socialmedia_logo" src={Twitter} alt="Twitter" /></a>
-                <a className="socialmedia" href="https://www.linkedin.com/company/torekko/"><img className="socialmedia_logo" src={Linkedin} alt="Linkedin" /></a>
-                <a className="socialmedia" href="https://t.me/torekko"><img className="socialmedia_logo" src={Telegram} alt="Telegram" /></a>
-                <a className="socialmedia" href="https://t.me/torekkoann"><img className="socialmedia_logo" src={Telegram} alt="Telegram" /></a>
-                <a className="socialmedia" href="https://discord.gg/Tnwtu5YjDA"><img className="socialmedia_logo" src={Discord} alt="Discord" /></a>
+                <a className="socialmedia" href="https://www.instagram.com/torekkocom/" target="_blank"><img className="socialmedia_logo" src={Instagram} alt="Instagram" /></a>
+                <a className="socialmedia" href="https://twitter.com/torekkocom?s=20" target="_blank"><img className="socialmedia_logo" src={Twitter} alt="Twitter" /></a>
+                <a className="socialmedia" href="https://www.linkedin.com/company/torekko/" target="_blank"><img className="socialmedia_logo" src={Linkedin} alt="Linkedin" /></a>
+                <a className="socialmedia" href="https://t.me/torekko" target="_blank"><img className="socialmedia_logo" src={Telegram} alt="Telegram" /></a>
+                <a className="socialmedia" href="https://discord.gg/Tnwtu5YjDA" target="_blank"><img className="socialmedia_logo" src={Discord} alt="Discord" /></a>
+                <a className="socialmedia" href="https://medium.com/@torekko" target="_blank"><img className="socialmedia_logo" src={Medium} alt="Medium" /></a>
             </div>
         </div>
     )

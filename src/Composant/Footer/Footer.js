@@ -28,43 +28,20 @@ function Footer() {
                 <address>
                     <a class="footer__btn" href="mailto:contact@torekko.com">contact@torekko.com</a>
                 </address>
+
+
+                <div class='square-box'>
+                    <div class='square-content'>
+                        <a className="socialmedia" href="https://t.me/torekkoann" target="_blank"><img className="socialmedia_logo" src={Telegram} alt="Telegram" />
+                            <h5 class="socialmedia_text" href="https://t.me/torekkoann" target="_blank">Join our community !</h5>
+                        </a>
+                    </div>
+                </div>
+
+                
+
+
             </div>
-
-            <ul class="footer__nav">
-                <li class="nav__item">
-                    <a className="socialmedia" href="https://www.instagram.com/torekkocom/"><img className="socialmedia_logo" src={Instagram} alt="Instagram"/>
-                    <h5 class="socialmedia_text" href="https://www.instagram.com/torekkocom/">Instagram</h5>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a className="socialmedia" href="https://twitter.com/torekkocom?s=20"><img className="socialmedia_logo" src={Twitter} alt="Instagram" />
-                    <h5 class="socialmedia_text" href="https://twitter.com/torekkocom?s=20">Twitter</h5>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a className="socialmedia" href="https://www.linkedin.com/company/torekko/"><img className="socialmedia_logo" src={Linkedin} alt="Instagram" />
-                    <h5 class="socialmedia_text" href="https://www.linkedin.com/company/torekko/">Linkedin</h5>
-                    </a>
-                </li>
-
-                <li class="nav__item">
-                    <a className="socialmedia" href="https://t.me/torekko"><img className="socialmedia_logo" src={Telegram} alt="Instagram" />
-                    <h5 class="socialmedia_text" href="https://t.me/torekko">Community</h5>
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a className="socialmedia" href="https://t.me/torekkoann"><img className="socialmedia_logo" src={Telegram} alt="Telegram" />
-                    <h5 class="socialmedia_text" href="https://t.me/torekkoann">Announcements</h5>
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a className="socialmedia" href="https://discord.gg/Tnwtu5YjDA"><img className="socialmedia_logo" src={Discord} alt="Discord" />
-                    <h5 class="socialmedia_text" href="https://discord.gg/Tnwtu5YjDA">Discord</h5>
-                    </a>
-                </li>
-            </ul>
 
             {/* <ul class="footer__nav">
         <li class="nav__item">

@@ -51,7 +51,7 @@ const Navigation = () => {
                 ))}
 
                 <li className="nav-item">
-                  <a href="https://medium.com/@torekko" className="animated">
+                  <a href="https://medium.com/@torekko" className="animated" target="_blank">
                     <span className="span1">M</span>
                     <span className="span2">e</span>
                     <span className="span3">d</span>
