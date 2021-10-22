@@ -1,231 +1,83 @@
+.bg-black {
+  background-color: black;
+}
+.home .active {
+  background-color: black;
+  color: white;
+}
+.home .loader {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+  z-index: 100;
+}
+
 .home {
-  font-weight: normal;
   z-index: 0;
-  text-align: center;
-}
-.home .uniswap-bar {
-  background-color: black;
-  color: white;
-  padding: 13px 0px;
-}
-.home .uniswap-bar a {
-  text-decoration: none;
-  color: white;
-  text-decoration: underline;
 }
 
-.home .bande-principale {
-  width: 100.5%;
-  margin-left: -7px;
+.home .video_box video {
+  width: 100%;
+  object-fit: cover;
 }
-
-.home .EnCeMoment p {
-  background-color: black;
-  color: white;
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 18px;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-weight: bold;
+.home .video_overlays {
   position: absolute;
-  left: 0px;
-  z-index: 2;
-}
-
-/* ---------------------------- */
-/* Défilement de droite à gauche */
-.home .marquee-rtl {
-  overflow: hidden; /* important */
-  width: 100%;
-  max-width: 100%; /* A ADAPTER */
-  margin-top: -10px;
-  z-index: 0;
-}
-.home .marquee-rtl img {
-  height: 50px;
-}
-.home .marquee-rtl > div {
-  display: inline-block; /* important */
-  white-space: nowrap; /* important */
-  animation: defilement-rtl 40s infinite linear; /* défilement */
-  cursor: pointer;
-  padding: 10px 2em 10px 100%;
-}
-.home .marquee-rtl:hover > div {
-  /*animation-play-state: paused;  met en pause le défilement */
-}
-.home .marquee-rtl > div:first-letter {
-  font-weight: 700;
-  color: #f00;
-}
-@keyframes defilement-rtl {
-  0% {
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-  100% {
-    -webkit-transform: translate(-100%);
-    transform: translate(-100%);
-  }
-}
-
-/**/
-
-.home .Partners table tr td img.blueWhale {
-  width: 15%;
-  height: auto;
-  padding-right: 2%;
-}
-
-.home .Partners table tr td img.odyyana {
-  width: 12%;
-  padding-left: 2%;
-  height: auto;
-}
-
-.home .Partners table {
-  border-collapse: collapse;
-}
-
-.home .Partners table {
-  width: 100%;
-  max-width: 100%;
-}
-
-.home .Partners table tr td {
-  display:inline-block;
-  padding: 5px;
-}
-.home .Partners table tr td p.name {
-  padding-top: 10px;
+  font-size: 39px;
   font-weight: bold;
-}
-
-.home .Partners h1 {
-  padding-bottom: 10px;
-}
-
-
-.home .Partners {
-  /*padding-top: 5%;*/
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 5%;
-}
-
-.home .Discover h1{
-  padding-bottom: 5%;
-}
-.home .Discover {
-  padding-top: 5%;
-  margin-top: 60px;
-  width: 80%;
-  margin: 0 auto;
-  padding-right: 10%;
-  padding-left: 10%;
-}
-.home .Discover p {
-  padding-right: 10%;
-  padding-left: 10%;
-  text-align: justify;
-  margin-top: 3%;
-}
-.home .discover-body {
-  margin-top: 5%;
-  display: flex;
-  align-items: stretch;
-}
-
-
-.home .discover-body table {
-  border-collapse: collapse;
-}/*
-.home .discover-body table td {
-  border: 1px black dashed;
-}*/
-
-.home .discover-body table tr td.imgPart {
-  width: 100%;
-  height: 100%;
-  display:inline-block;
-  padding-right: 50px;
-}
-.home .discover-body table tr td.textPart {
-  width: 20%;
-  height: 100%;
-  display:inline-block;
-  padding-left: 50px;
-}
-
-.home .discover-body table {
-  width: 100%;
-  max-width: 100%;
-}/*
-.home .discover-body table tr td {
-  display:inline-block;
-  padding: 5px;
-  width: 50%;
-  height: auto;
-}*/
-
-
-
-
-.home .openbox {
-  min-width: 20%;
-  /*width: 270%;*/
-  max-width: 120%;
-  height: 200%;
-  margin-top: -2%;
-}
-.home .incubated {
-  min-width: 200px;
-  width: 270%;
-  max-width: 300px;
-  height: 200%;
-  margin-top: 2%;
-}
-
-.home .rarete {
-  margin-top: 100px;
-  background: #e3032d;
-  padding-bottom: 60px;
-}
-.home .rarete h1 {
   color: white;
-  padding-top: 30px;
+  width: 50%;
+  min-height: 40px;
+  bottom: 40%;
+  left: 25%;
+  text-align: center;
+  z-index: 1;
+}
+
+.home video {
+  width: 100%;
+}
+.home .principale-title {
+  position: absolute;
+  left: 24.5%;
+  margin-top: 20%;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  z-index: 1;
+  width: 50%;
+}
+.home .principale-forteresse {
+  position: absolute;
+  width: 84%;
+  filter: brightness(50%);
+  left: 7%;
+}
+.home .principale-video {
+  position: absolute;
+}
+
+.home .bloc {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.home .title {
   padding-bottom: 40px;
 }
-.home .rarete img {
-  width: 20%;
-  min-width: 300px;
+
+.home .attribut .attribut-part {
+  border: solid rgba(126, 126, 126, 0.26) 2px;
+  border-radius: 20px;
+  width: 90%;
+  margin: 10px 0px;
+  padding-top: 10px;
 }
 
-.home .booster {
-  margin-top: 30px;
-  padding-bottom: 90px;
+.home .image-description {
+  width: 100%;
+  padding-bottom: 20px;
 }
-.home .booster .bloc {
-  display: flex;
-  align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-.home .booster img {
-  float: right;
-  width: 20%;
-  min-width: 350px;
-  height: 20%;
-  padding-right: 200px;
-  margin-left: 100px;
-  margin-top: -35px;
-  vertical-align: middle;
-}
-.home .booster p {
-  margin-top: 50px;
-  padding-left: 100px;
-  text-align: justify;
+.home .attribut-container {
+  width: 90%;
 }
 
 .home .boosterdrop {
@@ -259,7 +111,7 @@
   float: left;
 }
 .home .booster-etape1 {
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: justify;
   padding-left: 30px;
   padding-right: 30px;
@@ -336,100 +188,12 @@
   background: url("../../Illustration/emoji.png");
 }
 
-/*team dashboard*/
-.home .team-container {
-  margin-top: 50px;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.home .team-container h2 p {
-  padding-bottom: 50px;
-}
-
-.home .team-container h2 p.black {
-  position:center;
-  color: black;
-}
-
-.home .team-container h2 p span.red {
-  position:center;
-  color: red;
-}
-
-.home .team-container table {
-  border-collapse: collapse;
-}
-
-.home .team-container table td {
-  /*border: 1px black dashed;*/
-}
-
-.home .team-container table {
-  width: 100%;
-  max-width: 100%;
-}
-
-.home .team-container table tr td {
-  display:inline-block;
-  padding: 5px;
-}
-
-.home .team-container table tr td img {
-  width:80%;
-}
-
-.home .team-container table tr td p.name {
-  padding-top: 10px;
-  font-weight: bold;
-}
-
-/*PDF*/
-
-.home .pdfDowloader {
-  margin-top: 50px;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  display:inline-block;
-}
-
-.home .pdfDowloader h2 {
-  padding-top: 50px;
-}
-
-.home .pdfDowloader img {
-  width: 40%;
-}
-
-
-
-.home .pdfDowloader table {
-  border-collapse: collapse;
-}
-/*
-.home .pdfDowloader table td {
-  border: 1px black dashed;
-}
-*/
-.home .pdfDowloader table {
-  width: 100%;
-  max-width: 100%;
-}
-
-.home .pdfDowloader table tr td {
-  display:inline-block;
-  padding: 5px;
-  width:400px;
-}
-
 /*RoadMap*/
 .home .RoadMap {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.home .RoadMap img{
+.home .RoadMap img {
   width: 50%;
   height: auto;
 }
@@ -438,8 +202,8 @@
   padding-bottom: 3%;
 }
 .button {
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 2px solid #e7e7e7;
   padding: 16px 32px;
   text-align: center;
@@ -456,44 +220,121 @@
   border: 2px solid black;
 }
 #bg {
-  position:static; 
-  top: 0; 
+  position: static;
+  top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
 }
-
+/*
 .home .RoadMap .ButtonUp {
   display: flex;
   align-items: stretch;
   text-align: justify;
   justify-content: center;
   /*padding-bottom: 5%;
-  padding-top: 5%;*/
-}
+  padding-top: 5%;*//*
+}*/
 
-
-.home .RoadMap .ButtonUp {
+.home .RoadMap .ButtonUp1 {
   padding-left: 10%;
   padding-right: 10%;
 }
-.home .RoadMap .ButtonUp table tr td {
+.home .RoadMap .ButtonUp2 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.home .RoadMap table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.home .RoadMap .ButtonUp1 table tr td {
   text-align: center;
 }
-.home .RoadMap .ButtonUp table tr td img {
+.home .RoadMap .ButtonUp2 table tr td {
+  text-align: center;
+  height: 10%;
+}
+.home .RoadMap table tr td img {
   width: 20%;
   height: auto;
 }
 
-.home .RoadMap .ButtonUp table tr td img.buttonDown {
-  width: 15%;
-  height: auto;
+.home .RoadMap table.down tr.downtr td button {
 }
+
+.home .RoadMap table tr td img.buttonDown {
+  height: 50%;
+}
+
+.home .RoadMap table.down tr.downtr td img.buttonDown {
+  height: 25%;
+  width: 20%;
+}
+
+.home .RoadMap .button {
+  height: 200px;
+}
+
 
 @media only screen and (max-width: 600px) {
   .home .RoadMap .button {
-      width: 100%;
+    width: 100%;
   }
+}
+
+
+.home .Partners table tr td img.blueWhale {
+  width: 15%;
+  height: auto;
+  padding-right: 2%;
+  padding-left: 2%;
+  min-width: 250px;
+}
+
+.home .Partners table tr td img.odyyana {
+  width: 12%;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: auto;
+  min-width: 200px;
+}
+
+.home .Partners table {
+  border-collapse: collapse;
+}
+
+.home .Partners table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home .Partners table tr td {
+  display: inline-block;
+  padding: 5px;
+}
+.home .Partners table tr td p.name {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.home .Partners h1 {
+  padding-bottom: 10px;
+}
+
+.home .Partners {
+  /*padding-top: 5%;*/
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5%;
+}
+
+.home .text-description {
+  text-align: left;
+  width: 130%;
 }
 
 /* Responsive  */
@@ -605,53 +446,3 @@
   color: white;
   font-size: 20px;
 }
-
-@media (max-width: 600px) {
-}
-
-/*
-  .home .booster-etape img {
-    width: 50%;
-    float: initial;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .home .booster-etape1 {
-    margin-top: 50px;
-    text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .home .booster-etape1 p {
-    padding-left: 0%;
-    padding-bottom: 0px;
-  }
-  .home .booster-etape {
-    display: inline-block;
-    width: 80%;
-    margin: 0 0;
-  }
-  .home .drop-etape img {
-    width: 50%;
-    float: initial;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .home .drop-etape1 {
-    margin-top: 50px;
-    text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .home .drop-etape1 p {
-    padding-left: 0%;
-    padding-bottom: 0px;
-  }
-  .home .drop-etape {
-    display: inline-block;
-    width: 80%;
-    margin: 30 0;
-  }
-}*/

@@ -125,7 +125,7 @@ function Footer() {
     </ul> */}
 
             <div class="legal">
-                <p>&copy; 2021 TORREKO. All rights reserved.</p>
+                <p>&copy; 2021 TOREKKO. All rights reserved.</p>
 
                 <div class="legal__links">
                     <a href="#">CGV - Mentions légales</a>
