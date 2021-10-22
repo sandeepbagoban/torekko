@@ -241,6 +241,155 @@ function Home({contract}){
                 <br/>
             </div>
 
+            {/* Temporary commentaries
+            <div className="team-container">
+                put dans un autre fichier html
+                <h2>
+                    <p class="black"><Trans>home.team.title1</Trans>
+                        <span class="red"><Trans>home.team.title2</Trans></span>
+                    </p>
+                </h2>
+                <table>
+                        <tr>
+                            <td data-label="TextUnder1">
+                                <img src={require('./../../Illustration/TeamPictures/pp-0.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic1</Trans></p>
+                                <p><Trans>home.name.pic8.2</Trans></p>
+                            </td>
+                            <td data-label="TextUnder2">
+                                <img src={require('./../../Illustration/TeamPictures/pp-1.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic2</Trans></p>
+                                <p><Trans>home.name.pic8.2</Trans></p>
+                            </td>
+                            <td data-label="TextUnder3">
+                                <img src={require('./../../Illustration/TeamPictures/pp-2.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic3</Trans></p>
+                                <p><Trans>home.name.pic8.2</Trans></p>
+                            </td>
+                            <td data-label="Text4">
+                                <img src={require('./../../Illustration/TeamPictures/pp-3.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic4</Trans></p>
+                                <p><Trans>home.name.pic4.2</Trans></p>
+                            </td>
+                            <td data-label="Text5">
+                                <img src={require('./../../Illustration/TeamPictures/pp-4.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic5</Trans></p>
+                                <p><Trans>home.name.pic5.2</Trans></p>
+                            </td>
+                            <td data-label="TextUnder6">
+                                <img src={require('./../../Illustration/TeamPictures/unknow.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic6</Trans></p>
+                                <p><Trans>home.name.pic6.2</Trans></p>
+                            </td>
+                            <td data-label="TextUnder7">
+                                <img src={require('./../../Illustration/TeamPictures/pp-6.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic7</Trans></p>
+                                <p><Trans>home.name.pic7.2</Trans></p>
+                            </td>
+                            <td data-label="Text8">
+                                <img src={require('./../../Illustration/TeamPictures/unknow.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic8</Trans></p>
+                                <p><Trans>home.name.pic8.2</Trans></p>
+                            </td>
+                            <td data-label="Text9">
+                                <img src={require('./../../Illustration/TeamPictures/pp-8.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic9</Trans></p>
+                                <p><Trans>home.name.pic9.2</Trans></p>
+                            </td>
+                            <td data-label="Text10">
+                                <img src={require('./../../Illustration/TeamPictures/pp-9.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic10</Trans></p>
+                                <p><Trans>home.name.pic10.2</Trans></p>
+                            </td>
+                            <td data-label="Text11">
+                                <img src={require('./../../Illustration/TeamPictures/pp-10.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic11</Trans></p>
+                                <p><Trans>home.name.pic11.2</Trans></p>
+                            </td>
+                            <td data-label="Text12">
+                                <img src={require('./../../Illustration/TeamPictures/unknow.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic12.2</Trans></p>
+                                <p><Trans>home.name.pic12.2</Trans></p>
+                            </td>
+                            <td data-label="Text13">
+                                <img src={require('./../../Illustration/TeamPictures/pp-12.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic13</Trans></p>
+                                <p><Trans>home.name.pic13.2</Trans></p>
+                            </td>
+                            <td data-label="Text14">
+                                <img src={require('./../../Illustration/TeamPictures/pp-13.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic14</Trans></p>
+                                <p><Trans>home.name.pic14.2</Trans></p>
+                            </td>
+                            <td data-label="Text15">
+                                <img src={require('./../../Illustration/TeamPictures/pp-14.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic15</Trans></p>
+                                <p><Trans>home.name.pic15.2</Trans></p>
+                            </td>
+                            <td data-label="Text16">
+                                <img src={require('./../../Illustration/TeamPictures/pp-15.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic16</Trans></p>
+                                <p><Trans>home.name.pic16.2</Trans></p>
+                            </td>
+                            <td data-label="Text17">
+                                <img src={require('./../../Illustration/TeamPictures/unknow.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic17</Trans></p>
+                                <p><Trans>home.name.pic17.2</Trans></p>
+                            </td>
+                            <td data-label="Text18">
+                                <img src={require('./../../Illustration/TeamPictures/pp-17.jpg').default} alt="draw"/>
+                                <p class="name"><Trans>home.name.pic18</Trans></p>
+                                <p><Trans>home.name.pic18.2</Trans></p>
+                            </td>
+                        </tr>
+                    </table>
+                    !put dans un autre fichier html
+            </div>
+
+            <div className="pdfDowloader">
+
+                <table>
+                        <tr>
+                            <td data-label="Text Left">
+                                <h2 className="allign">Découvrez Torekko</h2>
+                                <p>Téléchargez notre Pitchdeck, notre One-pager et notre Tokenomics en anglais</p>
+                            </td>
+
+                            <td>
+                                <a href="https://www.sejda.com/share/efc42abefe42451d8eb7d8c7304ea058-kh6PMNwM53mf5cNPK_mN2ald8_F-MB2nNpvNcSKB8UCyFKjhjVmoR6mIqcTOuwYr">
+                                <img src={require('./../../Illustration/home/PitchDeck.png').default} alt="draw"/>
+                                </a>
+                            </td>
+                            <td >
+                                <a href="https://www.sejda.com/share/b48735e2b79c47a6820a45f8e1141f62-a-Bwck1saWB3mM8nGrLRyqESzeKEMkgvIofdbAttIpThbj_hr1xeLYwoyC70q3RD">
+                                <img src={require('./../../Illustration/home/One-Page.png').default} alt="draw"/>
+                                </a>
+                            </td>
+                            <td >
+                                <a href="https://www.sejda.com/share/20036164f27e774938bbeea7855f1484a2-98TBfd84h_OVqOi_NrR6hsWiKLMNODbFoQ5kr7C4RQia08Rgdy8NGLgjLMqUw596">
+                                <img src={require('./../../Illustration/home/Tokenomics.png').default} alt="draw"/>
+                                </a>
+                            </td>
+                            
+                        </tr>
+                </table>
+            </div>*/}
+            <div className="update-mail">
+                <div className="update-text">
+                    <h2><Trans>home.email.title</Trans></h2>
+                    <p><Trans>home.email.description</Trans></p>
+                </div>
+                <div className="update-form">
+                    <p><Trans>home.email.enterEmail</Trans></p>
+                    <form>
+                        <label>
+                            <input type="text" placeholder="...@..." name="name" />
+                        </label>
+                        <input type="image" src={btnSignup} alt="Submit" width="100" height="32"></input>
+                    </form>
+                </div>
+            </div>
+
             <div className="Partners" id="investor">
                 <h1><Trans>home.partners.title</Trans></h1>
                 <table>
