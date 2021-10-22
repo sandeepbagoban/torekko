@@ -4,7 +4,7 @@ import boosterHiver2021 from '../../Illustration/boosterhiver1.png'
 import Select from 'react-select'
 
 import './MarketPlace.css'
-
+import './MarketPlaceBack.js'
 
 function MarketPlace(){
 
@@ -34,10 +34,16 @@ function MarketPlace(){
         { label: 'Hiver', value: 'collection3' },
     ]
 
+    const callApi = () => {
+        console.log("call api")
+    }
+    
 
     return(
         <div className="MarketPlace">
             <h1>Market<span>place</span></h1>
+
+            <button onClick={callApi}>CALL API</button>
                 
                 <div className="fields">
                     <Select defaultValue= {headers[3]} options={optionsStatus} className="selectBig"/>
