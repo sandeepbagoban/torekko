@@ -243,7 +243,7 @@ function Home(){ /*{contract}*/
 
             {/* Temporary commentaries
             <div className="team-container">
-                {/*put dans un autre fichier html
+                put dans un autre fichier html
                 <h2>
                     <p class="black"><Trans>home.team.title1</Trans>
                         <span class="red"><Trans>home.team.title2</Trans></span>
@@ -395,10 +395,24 @@ function Home(){ /*{contract}*/
                 <table>
                     <tr>
                         <td>
-                            <a href='https://moonwhale.ventures' target="_blank"><img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/></a>
-                            <a href='https://oddiyana.ventures' target="_blank"><img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/></a>
-                            <a href='https://lavender.capital' target="_blank"><img class="blueWhale" src={require('../../Illustration/partenaire/lavender.png').default} alt="draw"/></a>
-                            <a href='https://roseon.finance' target="_blank"><img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/></a>
+                                <a href='https://moonwhale.ventures' target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a href='https://oddiyana.ventures' target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a href='https://lavender.capital' target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/lavender.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a href='https://roseon.finance' target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/>
+                                </a>
                         </td>
                     </tr>
                 </table>

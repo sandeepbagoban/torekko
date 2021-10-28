@@ -198,8 +198,8 @@
   height: auto;
 }
 .home .RoadMap h1 {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 .button {
   background-color: white;
@@ -280,27 +280,12 @@
 }
 
 
-@media only screen and (max-width: 600px) {
-  .home .RoadMap .button {
-    width: 100%;
-  }
-}
-
-
-.home .Partners table tr td img.blueWhale {
-  width: 15%;
-  height: auto;
-  padding-right: 2%;
-  padding-left: 2%;
-  min-width: 250px;
-}
-
-.home .Partners table tr td img.odyyana {
-  width: 12%;
-  padding-left: 2%;
-  padding-right: 2%;
-  height: auto;
-  min-width: 200px;
+/*parterns dashboard*/
+.home .Partners {
+  margin-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .home .Partners table {
@@ -312,24 +297,105 @@
   max-width: 100%;
 }
 
+/*.home .Partners table tr td > * {
+  vertical-align : middle;
+}*/
+
 .home .Partners table tr td {
-  display: inline-block;
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
+  display: inline-flex;
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  box-shadow: 2px 2px 15px -2px rgb(50, 50, 50);
+}
+
+.home .Partners table tr td img:hover {
+  transform: scale(0.9);
+}
+
+.home .Partners table tr td img.blueWhale {
+  width: 15%;
+  height: auto;
+  min-width: 200px;
+}
+
+.home .Partners table tr td img.odyyana {
+  width: 12%;
+  height: auto;
+  min-width: 200px;
+}
+
+.home .Partners h1 {
+  padding-bottom: 30px;
+}
+/*
+.home .team-container table tr td img {
+  width:80%;
+}
+*/
+
+/*team dashboard*/
+.home .team-container {
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home .team-container h2 p {
+  padding-bottom: 50px;
+}
+
+.home .team-container h2 p.black {
+  position:center;
+  color: black;
+}
+
+.home .team-container h2 p span.red {
+  position:center;
+  color: red;
+}
+
+.home .team-container table {
+  border-collapse: collapse;
+}
+
+.home .team-container table td {
+  /*border: 1px black dashed;*/
+}
+
+.home .team-container table {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home .team-container table tr td {
+  display:inline-block;
   padding: 5px;
 }
-.home .Partners table tr td p.name {
+
+.home .team-container table tr td img {
+  width:80%;
+}
+
+.home .team-container table tr td p.name {
   padding-top: 10px;
   font-weight: bold;
 }
 
-.home .Partners h1 {
-  padding-bottom: 10px;
-}
 
-.home .Partners {
-  /*padding-top: 5%;*/
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 5%;
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .home .RoadMap .button {
+    width: 100%;
+  }
 }
 
 .home .text-description {
