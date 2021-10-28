@@ -26,7 +26,7 @@ function Footer() {
                 <h2>Contact</h2>
 
                 <address>
-                    <a class="footer__btn" href="mailto:contact@torekko.com">contact@torekko.com</a>
+                    <a class="footer__btn" href="mailto:email@torekko.com">email@torekko.com</a>
                 </address>
 
 

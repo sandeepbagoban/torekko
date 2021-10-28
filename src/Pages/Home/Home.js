@@ -243,7 +243,7 @@ function Home(){ /*{contract}*/
 
             {/* Temporary commentaries
             <div className="team-container">
-                put dans un autre fichier html
+                {/*put dans un autre fichier html
                 <h2>
                     <p class="black"><Trans>home.team.title1</Trans>
                         <span class="red"><Trans>home.team.title2</Trans></span>
@@ -343,7 +343,7 @@ function Home(){ /*{contract}*/
                             </td>
                         </tr>
                     </table>
-                    !put dans un autre fichier html
+                    {/*!put dans un autre fichier html
             </div>
 
             <div className="pdfDowloader">
