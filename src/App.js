@@ -27,8 +27,10 @@ var Web3 = require('web3');
 
 
 
+
+
 function App() {
-  var abi = require("./json/Collectibles_abi.json")
+ // var abi = require("./json/Collectibles_abi.json")
   /*var webb = new Web3('https://rinkeby.infura.io/v3/97c1c74d45ee46769f91f51b0a08a6f7')
   var contractAdress = '0x90d276cc7537947c67E0128AF854D3118654797e'
   var abi = require("./json/Collectibles_abi.json")
@@ -40,14 +42,14 @@ function App() {
   //webb.eth.getBalance('0xcA8Fa8f0b631EcdB18Cda619C4Fc9d197c8aFfCa', (err,bal) => { console.log(bal+" Balance") })
   //const [contract, setContract] = useState();
   
-  /*useEffect(() => {
-    var webb = new Web3('https://rinkeby.infura.io/v3/97c1c74d45ee46769f91f51b0a08a6f7')
-    var contractAdress = '0x90d276cc7537947c67E0128AF854D3118654797e'
+  //useEffect(() => {
+  //  var webb = new Web3('https://rinkeby.infura.io/v3/97c1c74d45ee46769f91f51b0a08a6f7')
+  //  var contractAdress = '0x90d276cc7537947c67E0128AF854D3118654797e'
     
-    setContract(new webb.eth.Contract(abi, contractAdress));*/
+  //  setContract(new webb.eth.Contract(abi, contractAdress));
     //console.log(contract)
     //connexion()
-//}, [])
+  //}, [])
 
 
 //useEffect(() => {
@@ -59,7 +61,7 @@ function App() {
       <Router>
           <Switch>
             <Route path='/' exact component={() => <Home/>} />{/*contract={contract}*/}
-            <Route path='/BuyBooster' exact component={BuyBooster}/>
+            {/*<Route path='/BuyBooster' exact component={BuyBooster}/>
             <Route path='/BuyBooster/booster:name/:id' exact component={AchatBooster}/>
 
             <Route path='/Mycollection' exact component={MyCollection}/>
@@ -68,7 +70,7 @@ function App() {
 
             <Route path='/Staking' exact component={Staking}/>
             <Route path='/MarketPlace' exact component={MarketPlace}/>
-            <Route path='/Drop' exact component={Drop}/>
+            <Route path='/Drop' exact component={Drop}/>*/}
 
             <Route path='/' component={Erreur404}/>
             

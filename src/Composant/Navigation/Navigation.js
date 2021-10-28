@@ -19,12 +19,11 @@ const Navigation = () => {
 
   //Element de la bar de menu
   const MenuValues = [
-    { id: 1, text: t('navigation.home'), link: "/" },
-    { id: 2, text: t('navigation.buyBooster'), link: "/BuyBooster" },
-    { id: 3, text: t('navigation.myCollection'), link: "/MyCollection" },
-    { id: 4, text: t('navigation.staking'), link: "/Staking" },
-    { id: 5, text: t('navigation.marketPlace'), link: "/MarketPlace" },
-    { id: 6, text: t('navigation.drop'), link: "/Drop" }
+    { id: 1, text: t('navigation.discover-torekko'), link: "#discover"},
+    { id: 2, text: t('navigation.attribut'), link: "#attribut"},
+    { id: 3, text: t('navigation.booster-drop'), link: "#booster-drop"},
+    { id: 4, text: t('navigation.roadmap'), link: "#roadmap"},
+    { id: 5, text: t('navigation.investor'), link: "#investor"},
   ];
 
   //Afficher la class active sur le menu
