@@ -14,7 +14,6 @@ import video4Slide from '../../Illustration/video/RUBY2.mp4'
 import video5Slide from '../../Illustration/video/HOMME_GA2.mp4'
 import video6Slide from '../../Illustration/video/SOIREE_GA2.mp4'
 import video7Slide from '../../Illustration/video/SURF_GA2.mp4'
-import video8Slide from '../../Illustration/video/GEISHA_GA.mp4'
 
 import Discord from '../../Illustration/Icon/discorde.png'
 import Telegram from '../../Illustration/Icon/telegram.png'
@@ -109,7 +108,6 @@ function Home(){ /*{contract}*/
                     <video autoPlay loop muted><source className="slide-video" src={video5Slide} type="video/mp4" /></video>
                     <video autoPlay loop muted><source className="slide-video" src={video6Slide} type="video/mp4" /></video>
                     <video autoPlay loop muted><source className="slide-video" src={video7Slide} type="video/mp4" /></video>
-                    <video autoPlay loop muted><source className="slide-video" src={video8Slide} type="video/mp4" /></video>
                 </Cover>
             </div>
             <div className="attribut bloc" id="attribut">
@@ -399,8 +397,8 @@ function Home(){ /*{contract}*/
                         <td>
                             <a href='https://moonwhale.ventures' target="_blank"><img class="blueWhale" src={require('../../Illustration/partenaire/blueWhale.png').default} alt="draw"/></a>
                             <a href='https://oddiyana.ventures' target="_blank"><img class="odyyana" src={require('../../Illustration/partenaire/Odyyana.png').default} alt="draw"/></a>
-                            {/*<a href='https://lavender.capital' target="_blank"><img class="blueWhale" src={require('../../Illustration/partenaire/lavender.png').default} alt="draw"/></a>
-                            <a href='https://roseon.finance' target="_blank"><img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/></a>*/}
+                            <a href='https://lavender.capital' target="_blank"><img class="blueWhale" src={require('../../Illustration/partenaire/lavender.png').default} alt="draw"/></a>
+                            <a href='https://roseon.finance' target="_blank"><img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/></a>
                         </td>
                     </tr>
                 </table>
