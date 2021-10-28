@@ -4,7 +4,7 @@ import boosterHiver2021 from '../../Illustration/boosterhiver1.png'
 import Select from 'react-select'
 
 import './MarketPlace.css'
-import './MarketPlaceBack.js'
+import Back from './MarketPlaceBack'
 
 function MarketPlace(){
 
@@ -35,6 +35,7 @@ function MarketPlace(){
     ]
 
     const callApi = () => {
+        Back();
         console.log("call api")
     }
     

@@ -26,7 +26,7 @@ import Medium from '../../Illustration/Icon/medium.png'
 import '../../Illustration/discover-torekko.png'
 
 
-function Home({contract}){
+function Home(){ /*{contract}*/
     var fn = function () {
         /* do you want */  
       }
