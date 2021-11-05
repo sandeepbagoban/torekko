@@ -109,7 +109,7 @@ function Home(){ /*{contract}*/
                 <h1 className="font-weight-bold text-white title"><Trans>home.discover.title</Trans></h1>
                 <Cover
                     width={960}
-                    height={480}
+                    height={500}
                     displayQuantityOfSide={2}
                     infiniteScroll={true}
                     navigation={false}
@@ -363,7 +363,7 @@ function Home(){ /*{contract}*/
                                 </a>
                         </td>
                         <td bgcolor="black">
-                                <a target="_blank">
+                                <a href="https://www.fairumventures.com/"  target="_blank">
                                     <img class="blueWhale" src={require('../../Illustration/partenaire/fairum.png').default} alt="draw"/>
                                 </a>
                         </td>
