@@ -110,31 +110,6 @@
   "footer.aboutus.beneficiaries":"Ayants-droit",
   "footer.aboutus.contactus":"Contact us",
 
-  "home.roadmap.button1":"Torekko project ideation",
-  "home.roadmap.button1.1":"and start of developement",
-  "home.roadmap.button1.2":"Q1 2021",
-
-  "home.roadmap.button2":"Lanch of Torekko founders",
-  "home.roadmap.button2.1":"edition NFTs",
-  "home.roadmap.button2.2":"Q4 2021",
-  
-  "home.roadmap.button3":"Mobile version of Torekko",
-  "home.roadmap.button3.1":"New blockchain integration",
-  "home.roadmap.button3.2":"Q1 2022",
-  
-  "home.roadmap.button4":"Launch of Torekko Animapp",
-  "home.roadmap.button4.1":"Torekko Scan",
-  "home.roadmap.button4.2":"Q2-3 2022",
-  
-  "home.roadmap.button5":"Torekko's entity, Team",
-  "home.roadmap.button5.1":"Advisor Formation completed",
-  "home.roadmap.button5.2":"Q3 2021",
-  
-  "home.roadmap.button6":"Mainnet 1.0 Launch",
-  "home.roadmap.button6.1":"IDO & listings $TRK Token distribution",
-  "home.roadmap.button6.2":"Q4 2021",
-  
-  "home.roadmap.button7":"Launch Torekko game",
-  "home.roadmap.button7.1":"Intergation to metaverse",
-  "home.roadmap.button7.2":"Q1 2022"
+  "home.roadmap.img":"../../Illustration/roadmap/roadmapen.jpg",
+  "home.roadmap.title":"RoadMap"
 }
