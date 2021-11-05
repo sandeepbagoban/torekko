@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react'
 
 import './Home.css'
+import i18next from 'i18next';
 import { Trans, useTranslation } from 'react-i18next'
 import Cover from 'react-coverflow'
 import DesciptionNFT from './DescriptionNFT'
@@ -22,13 +23,27 @@ import Instagram from '../../Illustration/Icon/instagram.png'
 import Twitter from '../../Illustration/Icon/twitter.png'
 import Medium from '../../Illustration/Icon/medium.png'
 
+import imgRoadmapFr from '../../Illustration/roadmap/roadmapfr.jpg';
+import imgRoadmapEn from '../../Illustration/roadmap/roadmapen.jpg';
+import imgRoadmapJp from '../../Illustration/roadmap/roadmapjp.jpg';
+
 import '../../Illustration/discover-torekko.png'
+import { findMatchingRequiredOptions } from 'web3modal'
 
 
 function Home(){ /*{contract}*/
-    var fn = function () {
-        /* do you want */  
-      }
+
+    function findImg() {
+            var img;
+            if (i18n.language == "en" || i18n.language == "us") {
+                img = imgRoadmapEn;
+            } else if (i18n.language == "fr") {
+                img = imgRoadmapFr;
+            } else if (i18n.language == "jp") {
+                img = imgRoadmapJp;
+            }
+            return (<img src={img} unselectable="on" id="bg" alt="draw"/>)
+    }
    
     const { t, i18n } = useTranslation()
     const [active, setActive] = useState("socle");
@@ -171,76 +186,9 @@ function Home(){ /*{contract}*/
                 </div>
             </div>    
             <div className="RoadMap" id="roadmap">
-                <h1>RoadMap</h1>
-
-                <div className="ButtonUp1">
-                <table>
-                        <tr>
-                            <td>
-                                <button class="button button1"><b><Trans>home.roadmap.button1</Trans>
-                                    <br/><Trans>home.roadmap.button1.1</Trans></b>
-                                    <br/><Trans>home.roadmap.button1.2</Trans>
-                                </button><br/>
-                                <img src={require('../../Illustration/barre-en-pointille.png').default} alt="draw"/>
-                            </td>
-                            <td>
-                                <button class="button button2"><b><Trans>home.roadmap.button2</Trans>
-                                    <br/><Trans>home.roadmap.button2.1</Trans></b>
-                                    <br/><Trans>home.roadmap.button2.2</Trans>
-                                </button><br/>
-                                <img src={require('../../Illustration/barre-en-pointille.png').default} alt="draw"/>
-                            </td>
-                            <td>
-                                <button class="button button3"><b><Trans>home.roadmap.button3</Trans>
-                                    <br/><Trans>home.roadmap.button3.1</Trans></b>
-                                    <br/><Trans>home.roadmap.button3.2</Trans>
-                                </button><br/>
-                                <img src={require('../../Illustration/barre-en-pointille.png').default} alt="draw"/>
-                            </td>
-                            <td>
-                                <button class="button button4"><b><Trans>home.roadmap.button4</Trans>
-                                    <br/><Trans>home.roadmap.button4.1</Trans></b>
-                                    <br/><Trans>home.roadmap.button4.2</Trans>
-                                </button><br/>
-                                <img src={require('../../Illustration/barre-en-pointille.png').default} alt="draw"/>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                <img src={require('../../Illustration/roadMapBar.png').default} id="bg" alt="draw"/>
-                
-                <div className="ButtonUp2">
-                    <table className="down">
-                        <tr className="downtr">
-                            <td>
-                                <img className="buttonDown" src={require('../../Illustration/barre-en-pointille.png').default} alt="draw"/><br/>
-                                <button class="button button5"><b><Trans>home.roadmap.button5</Trans>
-                                    <br/><Trans>home.roadmap.button5.1</Trans></b>
-                                    <br/><Trans>home.roadmap.button5.2</Trans>
-                                </button>
-                            </td>
-                            <td>
-                                <img className="buttonDown"  src={require('../../Illustration/barre-en-pointille.png').default} alt="draw"/><br/>
-                                <button class="button button6"><b><Trans>home.roadmap.button6</Trans>
-                                    <br/><Trans>home.roadmap.button6.1</Trans></b>
-                                    <br/><Trans>home.roadmap.button6.2</Trans>
-                                </button>
-                            </td>
-                            <td>
-                                <img className="buttonDown"  src={require('../../Illustration/barre-en-pointille.png').default} alt="draw"/><br/>
-                                <button class="button button7"><b><Trans>home.roadmap.button7</Trans>
-                                    <br/><Trans>home.roadmap.button7.1</Trans></b>
-                                    <br/><Trans>home.roadmap.button7.2</Trans>
-                                </button>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <br/>
+                <h1><Trans>home.roadmap.title</Trans></h1>
+                <div className='roadMapImg'>{findImg()}</div>
             </div>
-
             {/* Temporary commentaries
             <div className="team-container">
                 put dans un autre fichier html
@@ -412,6 +360,21 @@ function Home(){ /*{contract}*/
                         <td bgcolor="black">
                                 <a href='https://roseon.finance' target="_blank">
                                     <img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/fairum.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a href='https://exnetworkcapital.com/' target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/exnetworkCapitak.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a href='https://lpi.finance/' target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/lpidao.png').default} alt="draw"/>
                                 </a>
                         </td>
                     </tr>

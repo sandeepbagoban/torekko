@@ -111,35 +111,7 @@
     "footer.aboutus.partners":"Nos partenaires",
     "footer.aboutus.beneficiaries":"Ayants-droit",
     "footer.aboutus.contactus":"CGU",
-    
-    "home.roadmap.button1":"イデオン",
-    "home.roadmap.button1.1":"およびTorekkoプロジェクトの開始",
-    "home.roadmap.button1.2":"Q1 2021",
 
-    "home.roadmap.button2":"のNFT版を発売。",
-    "home.roadmap.button2.1":"とれっこさんとの出会い",
-    "home.roadmap.button2.2":"Q4 2021",
-    
-    "home.roadmap.button3":"モバイル版トレカ",
-    "home.roadmap.button3.1":"新しいブロックチェーンの統合",
-    "home.roadmap.button3.2":"Q1 2022",
-    
-    "home.roadmap.button4":"とれたてアニマップ」の発売",
-    "home.roadmap.button4.1":"とれっこスキャン",
-    "home.roadmap.button4.2":"Q2-3 2022",
-    
-    "home.roadmap.button5":"Entité de Torekko, Team",
-    "home.roadmap.button5.1":"トーレコ事業体、チームアドバイザー研修終了",
-    "home.roadmap.button5.2":"Q3 2021",
-    
-    "home.roadmap.button6":"Mainnet 1.0の立ち上げ",
-    "home.roadmap.button6.1":"IDOとリスト $TRKのトークン配布",
-    "home.roadmap.button6.2":"Q4 2021",
-    
-    "home.roadmap.button7":"ゲームを開始する Torekko",
-    "home.roadmap.button7.1":"メタバースへの統合",
-    "home.roadmap.button7.2":"Q1 2022"
-
-  
-
+    "home.roadmap.img":"../../Illustration/roadmap/roadmapjp.jpg",
+    "home.roadmap.title":"ロードマップ"
   }

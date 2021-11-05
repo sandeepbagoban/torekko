@@ -194,98 +194,25 @@
   padding-bottom: 30px;
 }
 .home .RoadMap img {
-  width: 50%;
+  pointer-events: none;
+  width: 70%;
   height: auto;
+  min-width: 500px;
+  max-width: 1200px;
 }
 .home .RoadMap h1 {
   padding-top: 40px;
   padding-bottom: 30px;
 }
-.button {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #f44336;
-  color: white;
-  border: 2px solid black;
-}
-#bg {
-  position: static;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-/*
-.home .RoadMap .ButtonUp {
-  display: flex;
-  align-items: stretch;
-  text-align: justify;
-  justify-content: center;
-  /*padding-bottom: 5%;
-  padding-top: 5%;*//*
-}*/
-
-.home .RoadMap .ButtonUp1 {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-.home .RoadMap .ButtonUp2 {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.home .RoadMap table {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
-
-.home .RoadMap .ButtonUp1 table tr td {
-  text-align: center;
-}
-.home .RoadMap .ButtonUp2 table tr td {
-  text-align: center;
-  height: 10%;
-}
-.home .RoadMap table tr td img {
-  width: 20%;
-  height: auto;
-}
-
-.home .RoadMap table.down tr.downtr td button {
-}
-
-.home .RoadMap table tr td img.buttonDown {
-  height: 50%;
-}
-
-.home .RoadMap table.down tr.downtr td img.buttonDown {
-  height: 25%;
-  width: 20%;
-}
-
-.home .RoadMap .button {
-  height: 200px;
-}
-
 
 /*parterns dashboard*/
 .home .Partners {
   margin-top: 10px;
   padding-bottom: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
+  /*padding-left: 30px;
+  padding-right: 30px;*/
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .home .Partners table {
@@ -332,13 +259,8 @@
 .home .Partners h1 {
   padding-bottom: 30px;
 }
-/*
-.home .team-container table tr td img {
-  width:80%;
-}
-*/
 
-/*team dashboard*/
+/*team dashboard
 .home .team-container {
   margin-top: 50px;
   padding-top: 30px;
@@ -365,7 +287,7 @@
 }
 
 .home .team-container table td {
-  /*border: 1px black dashed;*/
+  //border: 1px black dashed;
 }
 
 .home .team-container table {
@@ -385,7 +307,7 @@
 .home .team-container table tr td p.name {
   padding-top: 10px;
   font-weight: bold;
-}
+}*/
 
 
 
