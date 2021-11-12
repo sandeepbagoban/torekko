@@ -377,6 +377,23 @@ function Home(){ /*{contract}*/
                                     <img class="odyyana" src={require('../../Illustration/partenaire/lpidao.png').default} alt="draw"/>
                                 </a>
                         </td>
+
+
+                        <td>
+                                <a href='https://magnusdigitalassets.com/' target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/Magnus.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/Capital.jpg').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a href='https://www.vespertine.capital/' target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/Vespertine.png').default} alt="draw"/>
+                                </a>
+                        </td>
                     </tr>
                 </table>
             </div>
