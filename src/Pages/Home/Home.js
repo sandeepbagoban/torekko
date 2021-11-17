@@ -362,14 +362,15 @@ function Home(){ /*{contract}*/
                                     <img class="odyyana" src={require('../../Illustration/partenaire/roseon.png').default} alt="draw"/>
                                 </a>
                         </td>
-                        <td bgcolor="black">
-                                <a href="https://www.fairumventures.com/"  target="_blank">
-                                    <img class="blueWhale" src={require('../../Illustration/partenaire/fairum.png').default} alt="draw"/>
-                                </a>
-                        </td>
+                        
                         <td>
                                 <a href='https://exnetworkcapital.com/' target="_blank">
                                     <img class="odyyana" src={require('../../Illustration/partenaire/exnetworkCapitak.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a href="https://www.fairumventures.com/"  target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/fairum.png').default} alt="draw"/>
                                 </a>
                         </td>
                         <td bgcolor="black">
@@ -392,6 +393,73 @@ function Home(){ /*{contract}*/
                         <td>
                                 <a href='https://www.vespertine.capital/' target="_blank">
                                     <img class="odyyana" src={require('../../Illustration/partenaire/Vespertine.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/avg.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/BBS.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/NEW/lotus.jpg').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/NEW/astaunot.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/NEW/bsc.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/NEW/MULTIPAD LOGO2.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/NEW/chandier.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/NEW/HAFENLOGOTYPE.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/NEW/crypto-league.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/coinsgroup.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td>
+                                <a target="_blank">
+                                    <img class="odyyana" src={require('../../Illustration/partenaire/NEW/PBR_LOGO.jpg').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/icowolves.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        
+                        
+                        <td>
+                                <a target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/truepnl.png').default} alt="draw"/>
                                 </a>
                         </td>
                     </tr>
