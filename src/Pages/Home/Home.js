@@ -453,7 +453,7 @@ function Home(){ /*{contract}*/
                         </td>
                         <td bgcolor="black">
                                 <a target="_blank">
-                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/icowolves.png').default} alt="draw"/>
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/WHITE.png').default} alt="draw"/>
                                 </a>
                         </td>
                         

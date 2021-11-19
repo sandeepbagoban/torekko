@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.43484b5a.chunk.css",
-    "main.js": "/static/js/main.cc93c582.chunk.js",
-    "main.js.map": "/static/js/main.cc93c582.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cb740f4b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cb740f4b.js.map",
+    "main.js": "/static/js/main.95fe77c3.chunk.js",
+    "main.js.map": "/static/js/main.95fe77c3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7a0919a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7a0919a.js.map",
     "static/css/2.d153aecf.chunk.css": "/static/css/2.d153aecf.chunk.css",
-    "static/js/2.1e001ce4.chunk.js": "/static/js/2.1e001ce4.chunk.js",
-    "static/js/2.1e001ce4.chunk.js.map": "/static/js/2.1e001ce4.chunk.js.map",
-    "static/js/3.1ef782e7.chunk.js": "/static/js/3.1ef782e7.chunk.js",
-    "static/js/3.1ef782e7.chunk.js.map": "/static/js/3.1ef782e7.chunk.js.map",
+    "static/js/2.73407894.chunk.js": "/static/js/2.73407894.chunk.js",
+    "static/js/2.73407894.chunk.js.map": "/static/js/2.73407894.chunk.js.map",
+    "static/js/3.cb85f6be.chunk.js": "/static/js/3.cb85f6be.chunk.js",
+    "static/js/3.cb85f6be.chunk.js.map": "/static/js/3.cb85f6be.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d153aecf.chunk.css.map": "/static/css/2.d153aecf.chunk.css.map",
     "static/css/main.43484b5a.chunk.css.map": "/static/css/main.43484b5a.chunk.css.map",
-    "static/js/2.1e001ce4.chunk.js.LICENSE.txt": "/static/js/2.1e001ce4.chunk.js.LICENSE.txt",
+    "static/js/2.73407894.chunk.js.LICENSE.txt": "/static/js/2.73407894.chunk.js.LICENSE.txt",
     "static/media/1620894295675.jpg": "/static/media/1620894295675.23d72675.jpg",
     "static/media/3booster.png": "/static/media/3booster.135dd846.png",
     "static/media/ANASTASIA.png": "/static/media/ANASTASIA.af30dd24.png",
@@ -46,6 +46,7 @@
     "static/media/SURF_GA2.mp4": "/static/media/SURF_GA2.147bce8d.mp4",
     "static/media/Tokenomics.png": "/static/media/Tokenomics.69f62c72.png",
     "static/media/Vespertine.png": "/static/media/Vespertine.df2d94d5.png",
+    "static/media/WHITE.png": "/static/media/WHITE.3adeb1de.png",
     "static/media/astaunot.png": "/static/media/astaunot.266d8ddb.png",
     "static/media/avg.png": "/static/media/avg.b58d800e.png",
     "static/media/back-video-home2.mp4": "/static/media/back-video-home2.2de44233.mp4",
@@ -135,10 +136,10 @@
     "static/media/twitter.png": "/static/media/twitter.fe609069.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb740f4b.js",
+    "static/js/runtime-main.d7a0919a.js",
     "static/css/2.d153aecf.chunk.css",
-    "static/js/2.1e001ce4.chunk.js",
+    "static/js/2.73407894.chunk.js",
     "static/css/main.43484b5a.chunk.css",
-    "static/js/main.cc93c582.chunk.js"
+    "static/js/main.95fe77c3.chunk.js"
   ]
 }
