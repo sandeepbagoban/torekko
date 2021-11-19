@@ -397,7 +397,7 @@ function Home(){ /*{contract}*/
                         </td>
                         <td bgcolor="black">
                                 <a target="_blank">
-                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/avg.png').default} alt="draw"/>
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/coinsgroup.png').default} alt="draw"/>
                                 </a>
                         </td>
                         <td>
@@ -440,9 +440,10 @@ function Home(){ /*{contract}*/
                                     <img class="odyyana" src={require('../../Illustration/partenaire/NEW/crypto-league.png').default} alt="draw"/>
                                 </a>
                         </td>
+                        
                         <td bgcolor="black">
                                 <a target="_blank">
-                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/coinsgroup.png').default} alt="draw"/>
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/avg.png').default} alt="draw"/>
                                 </a>
                         </td>
                         <td>
