@@ -36,16 +36,29 @@
 .home video {
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .home .principale-title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .home .principale-title {
+    font-size: 45px;
+  }
+}
+
 .home .principale-title {
   position: absolute;
   left: 24.5%;
   margin-top: 20%;
   color: white;
-  font-size: 45px;
   font-weight: bold;
   z-index: 1;
   width: 50%;
 }
+
 .home .principale-forteresse {
   position: absolute;
   width: 84%;

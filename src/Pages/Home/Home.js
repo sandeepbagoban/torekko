@@ -456,11 +456,14 @@ function Home(){ /*{contract}*/
                                     <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/WHITE.png').default} alt="draw"/>
                                 </a>
                         </td>
-                        
-                        
                         <td>
                                 <a target="_blank">
                                     <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/truepnl.png').default} alt="draw"/>
+                                </a>
+                        </td>
+                        <td bgcolor="black">
+                                <a target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/Octopus.png').default} alt="draw"/>
                                 </a>
                         </td>
                     </tr>

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.43484b5a.chunk.css",
-    "main.js": "/static/js/main.95fe77c3.chunk.js",
-    "main.js.map": "/static/js/main.95fe77c3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d7a0919a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d7a0919a.js.map",
+    "main.css": "/static/css/main.027e553d.chunk.css",
+    "main.js": "/static/js/main.b24ee99f.chunk.js",
+    "main.js.map": "/static/js/main.b24ee99f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.971b4520.js",
+    "runtime-main.js.map": "/static/js/runtime-main.971b4520.js.map",
     "static/css/2.d153aecf.chunk.css": "/static/css/2.d153aecf.chunk.css",
-    "static/js/2.73407894.chunk.js": "/static/js/2.73407894.chunk.js",
-    "static/js/2.73407894.chunk.js.map": "/static/js/2.73407894.chunk.js.map",
-    "static/js/3.cb85f6be.chunk.js": "/static/js/3.cb85f6be.chunk.js",
-    "static/js/3.cb85f6be.chunk.js.map": "/static/js/3.cb85f6be.chunk.js.map",
+    "static/js/2.cfb241e1.chunk.js": "/static/js/2.cfb241e1.chunk.js",
+    "static/js/2.cfb241e1.chunk.js.map": "/static/js/2.cfb241e1.chunk.js.map",
+    "static/js/3.6705fd12.chunk.js": "/static/js/3.6705fd12.chunk.js",
+    "static/js/3.6705fd12.chunk.js.map": "/static/js/3.6705fd12.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d153aecf.chunk.css.map": "/static/css/2.d153aecf.chunk.css.map",
-    "static/css/main.43484b5a.chunk.css.map": "/static/css/main.43484b5a.chunk.css.map",
-    "static/js/2.73407894.chunk.js.LICENSE.txt": "/static/js/2.73407894.chunk.js.LICENSE.txt",
+    "static/css/main.027e553d.chunk.css.map": "/static/css/main.027e553d.chunk.css.map",
+    "static/js/2.cfb241e1.chunk.js.LICENSE.txt": "/static/js/2.cfb241e1.chunk.js.LICENSE.txt",
     "static/media/1620894295675.jpg": "/static/media/1620894295675.23d72675.jpg",
     "static/media/3booster.png": "/static/media/3booster.135dd846.png",
     "static/media/ANASTASIA.png": "/static/media/ANASTASIA.af30dd24.png",
@@ -34,6 +34,7 @@
     "static/media/MULTIPAD LOGO2.png": "/static/media/MULTIPAD LOGO2.b71547e9.png",
     "static/media/Magnus.png": "/static/media/Magnus.9b866b8d.png",
     "static/media/ONYX.mp4": "/static/media/ONYX.5e2521fd.mp4",
+    "static/media/Octopus.png": "/static/media/Octopus.a862554d.png",
     "static/media/Odyyana.png": "/static/media/Odyyana.44dd9d85.png",
     "static/media/One-Page.png": "/static/media/One-Page.bb0836a6.png",
     "static/media/PBR_LOGO.jpg": "/static/media/PBR_LOGO.a6bdf8c0.jpg",
@@ -136,10 +137,10 @@
     "static/media/twitter.png": "/static/media/twitter.fe609069.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7a0919a.js",
+    "static/js/runtime-main.971b4520.js",
     "static/css/2.d153aecf.chunk.css",
-    "static/js/2.73407894.chunk.js",
-    "static/css/main.43484b5a.chunk.css",
-    "static/js/main.95fe77c3.chunk.js"
+    "static/js/2.cfb241e1.chunk.js",
+    "static/css/main.027e553d.chunk.css",
+    "static/js/main.b24ee99f.chunk.js"
   ]
 }
