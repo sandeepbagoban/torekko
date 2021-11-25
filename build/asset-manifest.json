@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.027e553d.chunk.css",
-    "main.js": "/static/js/main.b24ee99f.chunk.js",
-    "main.js.map": "/static/js/main.b24ee99f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.971b4520.js",
-    "runtime-main.js.map": "/static/js/runtime-main.971b4520.js.map",
+    "main.js": "/static/js/main.41dd7333.chunk.js",
+    "main.js.map": "/static/js/main.41dd7333.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c99b9542.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c99b9542.js.map",
     "static/css/2.d153aecf.chunk.css": "/static/css/2.d153aecf.chunk.css",
-    "static/js/2.cfb241e1.chunk.js": "/static/js/2.cfb241e1.chunk.js",
-    "static/js/2.cfb241e1.chunk.js.map": "/static/js/2.cfb241e1.chunk.js.map",
-    "static/js/3.6705fd12.chunk.js": "/static/js/3.6705fd12.chunk.js",
-    "static/js/3.6705fd12.chunk.js.map": "/static/js/3.6705fd12.chunk.js.map",
+    "static/js/2.1687003c.chunk.js": "/static/js/2.1687003c.chunk.js",
+    "static/js/2.1687003c.chunk.js.map": "/static/js/2.1687003c.chunk.js.map",
+    "static/js/3.2a28cb53.chunk.js": "/static/js/3.2a28cb53.chunk.js",
+    "static/js/3.2a28cb53.chunk.js.map": "/static/js/3.2a28cb53.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d153aecf.chunk.css.map": "/static/css/2.d153aecf.chunk.css.map",
     "static/css/main.027e553d.chunk.css.map": "/static/css/main.027e553d.chunk.css.map",
-    "static/js/2.cfb241e1.chunk.js.LICENSE.txt": "/static/js/2.cfb241e1.chunk.js.LICENSE.txt",
+    "static/js/2.1687003c.chunk.js.LICENSE.txt": "/static/js/2.1687003c.chunk.js.LICENSE.txt",
     "static/media/1620894295675.jpg": "/static/media/1620894295675.23d72675.jpg",
     "static/media/3booster.png": "/static/media/3booster.135dd846.png",
     "static/media/ANASTASIA.png": "/static/media/ANASTASIA.af30dd24.png",
@@ -83,6 +83,7 @@
     "static/media/exchange-booster.png": "/static/media/exchange-booster.ac8f822b.png",
     "static/media/exnetworkCapitak.png": "/static/media/exnetworkCapitak.03dd8025.png",
     "static/media/forteresse-home.png": "/static/media/forteresse-home.989796af.png",
+    "static/media/gainAsso.png": "/static/media/gainAsso.3581dabd.png",
     "static/media/getFetch.cjs": "/static/media/getFetch.582d29c4.cjs",
     "static/media/gold-booster.png": "/static/media/gold-booster.9e24f851.png",
     "static/media/icon-booster.png": "/static/media/icon-booster.6bebf961.png",
@@ -137,10 +138,10 @@
     "static/media/twitter.png": "/static/media/twitter.fe609069.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.971b4520.js",
+    "static/js/runtime-main.c99b9542.js",
     "static/css/2.d153aecf.chunk.css",
-    "static/js/2.cfb241e1.chunk.js",
+    "static/js/2.1687003c.chunk.js",
     "static/css/main.027e553d.chunk.css",
-    "static/js/main.b24ee99f.chunk.js"
+    "static/js/main.41dd7333.chunk.js"
   ]
 }

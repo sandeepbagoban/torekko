@@ -466,6 +466,11 @@ function Home(){ /*{contract}*/
                                     <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/Octopus.png').default} alt="draw"/>
                                 </a>
                         </td>
+                        <td>
+                                <a target="_blank">
+                                    <img class="blueWhale" src={require('../../Illustration/partenaire/NEW/gainAsso.png').default} alt="draw"/>
+                                </a>
+                        </td>
                     </tr>
                 </table>
             </div>
