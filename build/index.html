@@ -1,1 +1,853 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><link rel="manifest" href="/manifest.json"/><title>Torekko</title><link href="/static/css/2.d153aecf.chunk.css" rel="stylesheet"><link href="/static/css/main.c9692aad.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,a,i=r[0],c=r[1],l=r[2],s=0,p=[];s<i.length;s++)a=i[s],Object.prototype.hasOwnProperty.call(o,a)&&o[a]&&p.push(o[a][0]),o[a]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);p.length;)p.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,i=1;i<t.length;i++){var c=t[i];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=a(a.s=t[0]))}return e}var n={},o={1:0},u=[];function a(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,i=document.createElement("script");i.charset="utf-8",i.timeout=120,a.nc&&i.setAttribute("nonce",a.nc),i.src=function(e){return a.p+"static/js/"+({}[e]||e)+"."+{3:"2a28cb53"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){i.onerror=i.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:i})}),12e4);i.onerror=i.onload=u,document.head.appendChild(i)}return Promise.all(r)},a.m=e,a.c=n,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(e,r){if(1&r&&(e=a(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)a.d(t,n,function(r){return e[r]}.bind(null,n));return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/",a.oe=function(e){throw console.error(e),e};var i=this.webpackJsonptorekko=this.webpackJsonptorekko||[],c=i.push.bind(i);i.push=r,i=i.slice();for(var l=0;l<i.length;l++)r(i[l]);var f=c;t()}([])</script><script src="/static/js/2.268f9639.chunk.js"></script><script src="/static/js/main.44e5b192.chunk.js"></script></body><script></script></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Torekko</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta name="referrer" content="origin">
+        <meta property="og:type" content="website">
+        <!-- Primary Meta Tags -->
+        <title>Torekko</title>
+        <meta name="title" content="Torekko">
+        <meta name="description" content="First japanimation metaverse soon available">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ilovehuman.org/torekko/HTML2/">
+        <meta property="og:title" content="Torekko">
+        <meta property="og:description" content="First japanimation metaverse soon available">
+        <meta property="og:image" content="https://ilovehuman.org/torekko/HTML2/img/social-image.jpg"/>      
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="628"/>
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://ilovehuman.org/torekko/HTML2/">
+        <meta property="twitter:title" content="Torekko">
+        <meta property="twitter:description" content="First japanimation metaverse soon available">
+        <meta property="twitter:image" content="https://ilovehuman.org/torekko/HTML2/img/social-image.jpg"/>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">  
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css"> 
+        <script src="js/jquery.min.js"></script>
+        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+        <script src="js/slick.js"></script>
+        <script>
+        document.onreadystatechange = function () {
+            var state = document.readyState
+            if (state == 'interactive') {             
+            } else if (state == 'complete') {
+                setTimeout(function(){                 
+                   document.getElementById('load').style.opacity="0";
+                   $('body').css({overflow: 'auto'});  
+              },1000);
+            }
+          }
+        </script>
+        <script>
+            $(window).scroll(function() {
+  
+              // selectors
+              var $window = $(window),
+                  $body = $('body'),
+                  $panel = $('.panel');
+              
+              // Change 33% earlier than scroll position so colour is there when you arrive.
+              var scroll = $window.scrollTop() + ($window.height() / 3);
+             
+              $panel.each(function () {
+                var $this = $(this);
+                
+                // if position is within range of this panel.
+                // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+                // Remember we set the scroll to 33% earlier in scroll var.
+                if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+                      
+                  // Remove all classes on body with color-
+                  $body.removeClass(function (index, css) {
+                    return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+                  });
+                   
+                  // Add class of currently active div
+                  $body.addClass('color-' + $(this).data('color'));
+                }
+              });    
+              
+            }).scroll();
+         </script>
+</head>
+<body id="body">
+<div id="load">
+  <div class="loader-animation">
+   <!--<img class="ball" src="img/moon-3.png" alt="Loading..." title="Loading..." />-->
+   <img class="ball" src="img/logo.png" alt="Loading..." title="Loading..." />
+   <p>Loading</p>
+  </div>
+</div>
+<div class="menu social">
+      <nav class="navigation">
+        <ul class="nav-menu">
+         <li><a href="#player-position" class="custom-cursor custom-cursor--action">Discover Torekko</a></li>
+         <li><a href="#attribut" class="custom-cursor custom-cursor--action">The NFTs attributes</a></li>
+         <li><a href="#booster" class="custom-cursor custom-cursor--action">Licenses</a></li>
+         <li><a href="#roadmap-title" class="custom-cursor custom-cursor--action">Roadmap</a></li>
+         <li><a href="#partners" class="custom-cursor custom-cursor--action">Investors and partners</a></li>
+         <li><a href="https://vesting.torekko.com/" target="_blank" class="custom-cursor custom-cursor--action">Vesting</a></li>
+         <li class="pancake"><a href="https://pancakeswap.finance/" target="_blank" class="custom-cursor custom-cursor--action">Get $TRK on Pancakeswap</a></li>
+        </ul>
+      </nav> 
+      <nav class="navigation">
+        <div class="social-media-icons">
+          <div class="social-icon instagram">
+           <a href="https://www.instagram.com/torekkocom/" target="_blank">
+             <img src="img/social icons/instagram.png" alt="instagram" title="instagram"/>
+             <img src="img/social icons/instagram-active.png" alt="instagram" title="instagram" class="isactive"/>
+           </a>
+          </div>
+          <div class="social-icon twitter">
+           <a href="https://twitter.com/torekkocom?s=20" target="_blank">
+             <img src="img/social icons/twitter.png" alt="twitter" title="twitter"/>
+             <img src="img/social icons/twitter-active.png" alt="twitter" title="twitter" class="isactive"/>
+           </a>
+          </div>  
+          <div class="social-icon linkedin">
+           <a href="https://www.linkedin.com/company/torekko/" target="_blank">
+             <img src="img/social icons/linkedin.png" alt="linkedin" title="linkedin"/>
+             <img src="img/social icons/linkedin-active.png" alt="linkedin" title="linkedin" class="isactive"/>   
+           </a>
+          </div>  
+          <div class="social-icon telegram">
+           <a href="https://t.me/torekko" target="_blank">
+            <img src="img/social icons/telegram.png" alt="telegram" title="telegram"/>
+            <img src="img/social icons/telegram-active.png" alt="telegram" title="telegram" class="isactive"/>
+          </a>
+          </div>  
+          <div class="social-icon discord">
+           <a href="https://discord.gg/Tnwtu5YjDA" target="_blank">
+            <img src="img/social icons/discord.png" alt="discord" title="discord"/>
+            <img src="img/social icons/discord-active.png" alt="discord" title="discord" class="isactive"/>
+           </a>
+          </div>  
+          <div class="social-icon medium">
+           <a href="https://medium.com/@torekko" target="_blank">
+            <img src="img/social icons/medium.png" alt="medium" title="medium"/>
+            <img src="img/social icons/medium-active.png" alt="medium" title="medium" class="isactive"/>
+           </a>
+          </div>    
+        </div>
+        <div class="nav-toggle custom-cursor custom-cursor--action">
+        <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </div>
+      </nav> 
+</div>
+<div id="menu" class="menu">
+      <nav class="navigation">
+        <ul class="nav-menu">
+         <li><a href="#intro" class="custom-cursor custom-cursor--action"><img src="img/logo.png" title="logo" alt="logo" /></a></li>
+         <li><a href="#player-position" class="custom-cursor custom-cursor--action">Discover Torekko</a></li>
+         <li><a href="#attribut" class="custom-cursor custom-cursor--action">The NFTs attributes</a></li>
+         <li><a href="#booster" class="custom-cursor custom-cursor--action">Licenses</a></li>
+         <li><a href="#roadmap-title" class="custom-cursor custom-cursor--action">Roadmap</a></li>
+         <li><a href="#partners" class="custom-cursor custom-cursor--action">Investors and partners</a></li>
+         <li><a href="https://vesting.torekko.com/" target="_blank" class="custom-cursor custom-cursor--action">Vesting</a></li>
+         <li class="pancake"><a href="https://pancakeswap.finance/" target="_blank" class="custom-cursor custom-cursor--action">Get $TRK on Pancakeswap</a></li>
+        </ul>
+      </nav> 
+</div>
+<div class="section-wrap">
+<section id="intro" class="wrapper header panel section" data-color="black">
+    <div class="logo"><img src="img/logo.png" title="logo" alt="logo" /></div>  
+    <div class="spaceship float">
+     <img src="img/spaceship-4.png" title="spaceship" alt="spaceship" />
+    </div> 
+    <div class="text-intro">
+      <h1>Torekko</h1>
+      <p class="neon">FIRST JAPANIMATION METAVERSE SOON AVAILABLE</p>
+      <div class="button">
+        <a href="#player-position" class="custom-cursor custom-cursor--action">Discover Torekko</a>
+      </div>  
+      <div id="player-position"></div>
+      <div class="video-yt">
+          <iframe id="player" src="https://www.youtube.com/embed/OzBIZYDhwRc?enablejsapi=1&autoplay=0"  type="text/html" frameborder="0" allow="autoplay"></iframe>
+          <script src="js/script.js"></script>
+          <!--<button id="playvideo"></button>-->
+      </div>
+    </div>  
+    <div class="rocks">    
+    </div> 
+    <div class="attributes">  
+    </div>   
+    <div class="planet">  
+    </div>  
+    <section class="galaxy-wrapper">
+      <canvas id="galaxy" width="100%" height="100%"></canvas>
+    </section>
+    <!--<div class="characters">
+     <img src="img/character2.jpg" title="Characters" alt="Characters" />
+    </div>  -->
+    
+    <div class="neon-circle">
+    </div>
+</section>    
+<section id="about" class="wrapper panel" data-color="red">   
+    <div id="discover" class="discover">
+        <div class="product" style="display: none;">
+         <section class="regular slider">
+          <div class="product-images">
+           <img src="img/products/product-1.jpg" title="product" alt="product" class="card animated"/>
+           <img src="img/products/product-1-hover.jpg" title="product" alt="product" class="card animated hover"/>
+          </div> 
+          <div class="product-images">
+           <img src="img/products/product-2.jpg" title="product" alt="product" class="card animated"/>
+           <img src="img/products/product-2-hover.jpg" title="product" alt="product" class="card animated hover"/>
+          </div> 
+          <div class="product-images">
+           <img src="img/products/product-3.jpg" title="product" alt="product" class="card animated"/>
+           <img src="img/products/product-3-hover.jpg" title="product" alt="product" class="card animated hover"/>
+          </div> 
+          <div class="product-images">
+           <img src="img/products/product-4.jpg" title="product" alt="product" class="card animated"/>
+           <img src="img/products/product-4-hover.jpg" title="product" alt="product" class="card animated hover"/>
+          </div> 
+         </section> 
+        </div>   
+    </div>
+</section> 
+<section id="attribut" class="wrapper panel" data-color="green">
+    <h1>The <span>attributes</span> of the <span>Torekko</span> NFTs</h1>
+    <div class="att-wrapper">
+    <section class="lazy slider" data-sizes="50vw">
+    <div>  
+     <div class="att-wrap"> 
+      <div class="att-image">
+       <div class="att-title">
+        The Base
+       </div>
+       <video autoplay="" loop="" muted>
+         <source class="image-description" src="videos/attributes/thebase.mp4" type="video/mp4">
+      </video>
+      </div>
+      <div class="att-description">
+        <h3>There are 4 rarities for the bases:</h3>
+        <div class="stone-wrap">
+         <div class="stone">
+          <img src="img/socles/commun.png" title="moonstone" alt="moonstone" />
+          <h4 class="ruby">#Ruby</h4>
+          <p>Common, 90% chance of getting an NFT with this base in a 3 NFT booster</p>
+         </div>  
+         <div class="stone"> 
+          <img src="img/socles/rare.png" title="moonstone" alt="moonstone" />
+          <h4 class="gold">#Gold</h4>
+          <p>Rare, 9% chance of getting an NFT with this base in a 3 NFT booster</p>
+         </div>  
+         <div class="stone"> 
+          <img src="img/socles/tres-rare.png" title="moonstone" alt="moonstone" />
+          <h4 class="moonstone">#Moonstone</h4>
+          <p>Very rare, 1% chance of getting an NFT with this base in a 3 NFT booster</p>
+         </div>  
+         <div class="stone"> 
+          <img src="img/socles/cross.png" title="moonstone" alt="moonstone" />
+          <h4 class="onyx">#Onyx</h4>
+          <p>Ultra rare, not found in a booster</p>
+         </div> 
+        </div> 
+      </div>
+     </div> 
+    </div> 
+    <div>
+      <div class="att-wrap"> 
+      <div class="att-image">
+      <div class="att-title">
+       The Decor
+      </div>
+      <video autoplay="" loop="" muted>
+         <source class="image-description" src="videos/attributes/thedecor.mp4" type="video/mp4">
+      </video>
+      </div>
+      <div class="att-description">
+        <h3>The backgrounds of our NFTs are unique to each collection and can be common to several characters.</h3>
+        <p>These sets represent most of the time emblematic places of the japanimation.</p>
+        <h3>All our sets are animated one by one manually by our artists and graphic designers.</h3>
+        <p>Some sets may be rarer than others because they are produced in smaller quantities. There can also be several versions of the same set with major or minor modifications making them rarer (for example, by changing the color of the sky, the season, the weather, ...)</p> 
+      </div>
+     </div> 
+    </div>
+    <div>
+     <div class="att-wrap">   
+      <div class="att-image">
+       <div class="att-title">
+       The Character
+       </div>
+      <video autoplay="" loop="" muted>
+         <source class="image-description" src="videos/attributes/thecharacter.mp4" type="video/mp4">
+      </video>
+      </div>
+      <div class="att-description">
+        <h3>The overwhelming majority of Torekko NFTs represent living characters or entities.</h3>
+        <p>These characters are all from the world of japanimation.</p>
+        <h3>All our characters are animated one by one manually by our artists and graphic designers.</h3>
+        <p>Our characters can be common to several NFTs while presenting major or minor changes impacting their rarity and statistics. For example, some of our NFTs may change clothes, aura, age, items held, animation, themes, ...</p>
+      </div>
+     </div> 
+    </div>
+    <div>
+      <div class="att-wrap">   
+      <div class="att-image">
+       <div class="att-title">
+        Collection
+       </div>
+        <img src="videos/attributes/collection.png" alt="collection" title="collection" />
+       </div>
+      <div class="att-description">
+        <h3>Each NFT Torekko is issued from one license and one season.</h3>
+        <p>A license is a published anime or manga whose merchandising rights have been given to Torekko for the creation of NFT.</p>
+        <h3>Torekko also has its own official license: TOREKKO ORIGINALS</h3>
+        <p>A season is literally a season (Summer, Spring, Fall, Winter) and a year (EX: 2021). The first season of NFT Torekko will be Fall 2021 with TOREKKO ORIGINALS as the first licensee.</p>
+      </div>
+     </div> 
+    </div>
+    <div>
+      <div class="att-wrap">   
+      <div class="att-image">
+       <div class="att-title">
+        Bonus Details
+       </div>
+      <video autoplay="" loop="" muted>
+         <source class="image-description" src="videos/attributes/bonus.mp4" type="video/mp4">
+      </video>
+      </div>
+      <div class="att-description">
+        <h3>Some NFT Torekko have bonus features.</h3>
+        <p>In general, it is visual details that differentiate them from other NFT Torekko.</p>
+        <p><strong>These visual details include:</strong></p>
+        <ul class="bonus">
+         <li><p><strong>Airdrop Parachute</strong>Corresponding to a special distribution</p></li>
+         <li><p><strong>Logo or distinctive sign from a Torekko partner</strong> Corresponding to a partnership between Torekko and another organization</p></li>
+         <li><p><strong>Anomaly in the animation or in visual details</strong> Corresponding to very rare versions of some NFTs</p></li>
+         <li><p>And many other more or less discreet details!</p></li>
+        </ul>
+      </div>
+     </div> 
+    </div>
+    <div>
+      <!-- this slide should inherit the sizes attr from the parent slider -->
+     <div class="att-wrap">   
+      <div class="att-image">
+       <div class="att-title">
+         Statistics
+       </div>
+      <video autoplay="" loop="" muted>
+         <source class="image-description" src="videos/attributes/stats.mp4" type="video/mp4">
+      </video>
+      </div>
+      <div class="att-description">
+        <p>In the Torekko metaverse, NFT collectibles will correspond to playable characters in the game. Each character has its own stats that will affect its skills in the game.</p>
+        <p><strong>The statistics are as follows:</strong></p>
+        <ul class="stats-attributs">
+         <li class="attack"><span></span>Attack</li>
+         <li class="specialattack"><span></span>Special attack</li>
+         <li class="defense"><span></span>Defense</li>
+         <li class="specialdefense"><span></span>Special defense</li>
+         <li class="speed"><span></span>Speed</li>
+         <li class="lifepoints"><span></span>Life Points</li>
+         <li class="types"><span></span>Type(s)</li>
+        </ul>
+        <p class="info">The total number of points divided between these 6 statistics depends on the character's base.</p>
+      </div>
+     </div> 
+    </div>
+   </section>
+    </div>
+</section>
+<section id="booster" class="wrapper panel" data-color="orange"> 
+    <h1>Licenses</h1>
+    <div class="container">
+
+     <div class="license-wrap">
+      <div class="licenser-wrap-wrap">
+        <div class="license"><h1><span>01</span>Torekko Originals</h1></div>   
+        <div class="license img white"><img src="img/licenses/license-1.jpg" title="License 1" alt="License 1"/></div>      
+        <div class="license"><h1><span>02</span>Coming Soon</h1></div>     
+        <div class="license img"></div> 
+      </div>  
+      <div class="licenser-wrap-wrap">  
+        <div class="license"><h1><span>03</span>Coming Soon</h1></div>     
+        <div class="license img"></div>     
+        <div class="license"><h1><span>04</span>Coming Soon</h1></div>     
+        <div class="license img"></div>
+      </div> 
+      <div class="licenser-wrap-wrap">
+        <div class="license"><h1><span>05</span>Coming Soon</h1></div>     
+        <div class="license img"></div>
+        <div class="license"><h1><span>06</span>Coming Soon</h1></div>     
+        <div class="license img"></div> 
+      </div>       
+     </div>   
+    
+    </div>
+    <div class="container"> 
+         <h1 id="roadmap-title" class="roadmap-title">Roadmap</h1>
+         <div id="timeline-box">  
+            <div class="timeline-box-wrap">
+            <div class="box-timeline">
+             <h1><span class="first-l">QI 2021</span><span>Torekko project ideation and start of developement</span></h1>
+            </div>
+            <div class="box-timeline delay-200">
+             <h1><span class="first-l">Q3 2021</span><span>Torekko's entity, Team Advisor Formation completed</span></h1>
+            </div>
+            <div class="box-timeline delay-400">
+             <h1><span class="first-l">Q4 2021</span><span>End of fundraising and preparation for the release of $TRK</span></h1>
+            </div>
+            <div class="box-timeline delay-600">
+             <h1><span class="first-l">01/01 2022</span><span>Launch of New Torekko Token $TRK (BEP-20)</span></h1>
+            </div>
+            </div>
+            <div class="path box-timeline delay-900">
+             <img src="img/road-2.png" title="Path" alt="Path"/>
+            </div>  
+            <div class="timeline-box-wrap">
+            <div class="box-timeline delay-800">
+             <h1><span class="first-l">JAN 2022</span><span>- Staking Token<br>- New Graphic Style<br>- Trailer 1 Metaverse</span></h1>
+            </div>
+            <div class="box-timeline delay-1000">
+             <h1><span class="first-l">FEB 2022</span><span>- NFTs & Farming<br>Staking LP<br>- Trailer 2 Metaverse</span></h1>
+            </div>
+            <div class="box-timeline delay-1200">        
+             <h1><span class="first-l">MARS 2022</span><span>- NFTs Founders Edition<br>- 1st Season Licensed NFTs</span></h1>
+            </div>
+            <div class="box-timeline delay-1400">
+             <h1><span class="first-l">APR 2022</span><span>Launch Torekko Mobile App</span></h1>
+            </div>
+            </div>
+            <div class="path box-timeline delay-1500">
+             <img src="img/road-2.png" title="Path" alt="Path"/>
+            </div> 
+            <div id="scroll-btm" class="timeline-box-wrap">
+            <div class="box-timeline delay-1600">
+             <h1><span class="first-l">MAY 2022</span><span>- Launch Beta Metaverse with the 1st level<br>- Torekko Lands</span></h1>
+            </div>
+            <div class="box-timeline delay-1800">
+             <h1><span class="first-l">JUN 2022</span><span>- 2nd Season Licensed NFTs<br>- 1st phase of implementation DAO</span></h1>
+            </div>
+            <div class="box-timeline delay-2000 red">        
+             <h1><span class="first-l">END 2022</span><span>- Torekko Scan <br>- Torekko Animapp<br>- Torekko Finance</span></h1>
+            </div>
+            <div class="box-timeline delay-2200 red">
+             <img src="img/logo.png" title="logo" alt="logo" />
+            </div>
+            </div>
+    </div>     
+    <div class="characters"><img src="img/characters.png" alt="Torekko" title="Torekko"></div>  
+
+   </div> 
+    <div class="booster-bg"></div>
+</section>
+
+<div id="footer" class="wrapper panel" data-color="yellow">
+ <div class="team-wrap">
+ <h1><span>Team &</span> Advisors</h1>
+  <div class="team">
+    <div class="team-box">
+      <img src="img/equipe/black/Enzo-DUFLOT-r.jpeg" alt="Enzo Duflot" title="Enzo Duflot"/>
+      <p class="name">Enzo Duflot</p>
+      <p class="job">Cofounder</p>
+    </div>
+    <div class="team-box">
+      <img src="img/equipe/black/Victor-Keller-r.jpeg" alt="Victor Keller" title="Victor Keller"/>
+      <p class="name">Victor Keller</p>
+      <p class="job">Cofounder</p>
+    </div>
+    <div class="team-box">
+      <img src="img/equipe/black/Hugo-Besson-r.jpeg" alt="Hugo Besson" title="Hugo Besson"/>
+      <p class="name">Hugo Besson</p>
+      <p class="job">CCO</p>
+    </div>
+    <div class="team-box">
+      <img src="img/equipe/black/Noah-Cebula-r.jpeg" alt="Noah Cebula" title="Noah Cebula"/>
+      <p class="name">Noah Cebula</p>
+      <p class="job">CMO</p>
+    </div>
+    <div class="team-box">
+      <img src="img/equipe/black/advisor-ishikawa-r.jpeg" alt="Advisor Ishikawa" title="Advisor Ishikawa"/>
+      <p class="name">Shinichiro ISHIKAWA</p>
+      <p class="job">Advisor | CEO at Gonzo K.K.</p>
+   </div>
+    <div class="team-box">
+      <img src="img/equipe/black/advisor-Yuen-r.jpeg" alt="Advisor Yuen" title="Advisor Yuen"/>
+      <p class="name">Yuen WONG</p>
+      <p class="job">Advisor | CEO at Labs Group</p>
+   </div>
+    <div class="team-box">
+      <img src="img/equipe/black/advisor-Allan-r.jpeg" alt="Advisor-Allan" title="advisor-Allan"/>
+      <p class="name">Allan TA</p>
+      <p class="job">Advisor | CEO at Roseon Finance</p>
+   </div> 
+    <div class="team-box">
+      <img src="img/equipe/black/Dorji-Rabten-r.jpeg" alt="Dorji Rabten" title="Dorji Rabten"/>
+      <p class="name">Dorji RABTEN</p>
+      <p class="job">Advisor | Founder & managing partner at Oddiyana Ventures</p>
+   </div>
+    <div class="team-box">
+      <img src="img/equipe/black/Fabian-VAN-DOESBURG-r.jpeg" alt="Advisor-Allan" title="advisor-Allan"/>
+      <p class="name">Fabian VAN DOESBURG </p>
+      <p class="job">Advisor | Partner at Oddiyana Ventures</p>
+   </div> 
+   <div class="team-box">
+      <img src="img/equipe/team-logo.jpg" alt="Torekko" title="Torekko">
+      <p class="name"></p>
+   </div>
+   </div>
+  </div>
+ <section id="partners">
+   <h1><span>Investors &</span> Partners</h1>
+   <section class="center slider">
+    <div>
+      <img src="img/logo/artful.jpg">
+    </div>
+    <div>
+      <img src="img/logo/bbs.jpg">
+    </div>
+    <div>
+      <img src="img/logo/avg.png">
+    </div>
+    <div>
+      <img src="img/logo/chandler.jpg">
+    </div>
+    <div>
+      <img src="img/logo/coins.png">
+    </div>
+    <div>
+      <img src="img/logo/gains.jpg">
+    </div>
+    <div>
+      <img src="img/logo/fairum.png">
+    </div>
+    <div>
+      <img src="img/logo/whalstar.jpg">
+    </div>
+    <div>
+      <img src="img/logo/hafen.png">
+    </div>
+    <div>
+      <img src="img/logo/moonyomi.jpg">
+    </div>
+    <div>
+      <img src="img/hz/gonzo.png">
+    </div>
+  </section>
+  <section class="center2 slider" dir="rtl">
+    <div>
+      <img src="img/logo/lotus.jpg">
+    </div>
+    <div>
+      <img src="img/logo/lpi.png">
+    </div>
+    <div>
+      <img src="img/logo/magnus.jpg">
+    </div>
+    <div>
+      <img src="img/logo/odiyana.png">
+    </div>
+    <div>
+      <img src="img/logo/moonwhale.jpg">
+    </div>
+    <div>
+      <img src="img/logo/whitelist.png">
+    </div>
+    <div>
+      <img src="img/logo/octopus.jpg">
+    </div>
+    <div>
+      <img src="img/logo/roseon.png">
+    </div>
+    <div>
+      <img src="img/logo/truepnl.jpg">
+    </div>
+    <div>
+      <img src="img/logo/vesperine.png">
+    </div>
+  </section>
+</section>
+ <div class="bep-wrap">
+  <div class="bep-info">
+   <div>BEP20:</div>
+   <div id="bep-text">
+    <textarea id="to-copy" spellcheck="false">0xA2E3e2817F00822F3c1E71A604eCa4196Af923d6</textarea>
+    <button id="copy" type="button"><img src="img/copy-solid.svg"/><span class="copiedtext" aria-hidden="true">Copied</span></button>
+  </div>
+  </div>
+ </div>
+<script>
+  var toCopy  = document.getElementById( 'to-copy' ),
+    btnCopy = document.getElementById( 'copy' );
+
+btnCopy.addEventListener( 'click', function(){
+  toCopy.select();
+  
+  
+  if ( document.execCommand( 'copy' ) ) {
+      btnCopy.classList.add( 'copied' );
+   
+    
+      var temp = setInterval( function(){
+        btnCopy.classList.remove( 'copied' );
+        clearInterval(temp);
+      }, 600 );
+    
+  } else {
+    console.info( 'document.execCommand went wrong…' )
+  }
+  
+  return false;
+} );
+</script>
+ <div class="contact-footer"><a href="mailto:email@torekko.com" target="_blank" class="custom-cursor custom-cursor--action">email@torekko.com</a></div>
+ <p>Copyright © <script>document.write(new Date().getFullYear())</script> TOREKKO. All rights reserved.</p>
+
+ <!-- PANCAKESWAP -->
+ <div class="pancakeswap">
+ <p>Make the most out of your crypto</p> 
+ <span class="pancake"><a href="https://pancakeswap.finance/" target="_blank" class="custom-cursor custom-cursor--action">Get $TRK on Pancakeswap</a></span>
+</div>
+ <!-- END PANCAKESWAP -->
+
+  <div class="logo"><img src="img/logo.png" title="logo" alt="logo" /></div>
+
+ <div class="footer-links">
+  <div class="logo-hz">
+   <p>Audited By Hacken & Zokyo</p>
+   <div class="hz-logo"><img src="img/hz/zokio.svg" alt="Zokyo" title="Zokyo"/> <img src="img/hz/hacken.svg" alt="Hacken" title="Hacken"/></div>
+  </div> 
+  <a href="https://docsend.com/view/s/s3nnspuswq6w9yyq" title="Whitepaper" Alt="Whitepaper" target="_blank">Whitepaper</a>
+ </div>
+
+</div>  
+<div class="social-media-icons">
+  <div class="social-icon instagram">
+   <a href="https://www.instagram.com/torekkocom/" target="_blank">
+     <img src="img/social icons/instagram.png" alt="instagram" title="instagram"/>
+     <img src="img/social icons/instagram-active.png" alt="instagram" title="instagram" class="isactive"/>
+   </a>
+  </div>
+  <div class="social-icon twitter">
+   <a href="https://twitter.com/torekkocom?s=20" target="_blank">
+     <img src="img/social icons/twitter.png" alt="twitter" title="twitter"/>
+     <img src="img/social icons/twitter-active.png" alt="twitter" title="twitter" class="isactive"/>
+   </a>
+  </div>  
+  <div class="social-icon linkedin">
+   <a href="https://www.linkedin.com/company/torekko/" target="_blank">
+     <img src="img/social icons/linkedin.png" alt="linkedin" title="linkedin"/>
+     <img src="img/social icons/linkedin-active.png" alt="linkedin" title="linkedin" class="isactive"/>   
+   </a>
+  </div>  
+  <div class="social-icon telegram">
+   <a href="https://t.me/torekko" target="_blank">
+    <img src="img/social icons/telegram.png" alt="telegram" title="telegram"/>
+    <img src="img/social icons/telegram-active.png" alt="telegram" title="telegram" class="isactive"/>
+  </a>
+  </div>  
+  <div class="social-icon discord">
+   <a href="https://discord.gg/Tnwtu5YjDA" target="_blank">
+    <img src="img/social icons/discord.png" alt="discord" title="discord"/>
+    <img src="img/social icons/discord-active.png" alt="discord" title="discord" class="isactive"/>
+   </a>
+  </div>  
+  <div class="social-icon medium">
+   <a href="https://medium.com/@torekko" target="_blank">
+    <img src="img/social icons/medium.png" alt="medium" title="medium"/>
+    <img src="img/social icons/medium-active.png" alt="medium" title="medium" class="isactive"/>
+   </a>
+  </div>    
+</div>
+</div>
+<div class="nav-overlay"></div>
+<!-- Back to top button -->
+<a id="scroll"></a>
+
+    <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        arrows:false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+       });
+      $(".center").slick({
+        dots: false,
+        arrows: false,
+        autoplay:true,
+        autoplaySpeed: 0,
+        speed:3000,
+        cssEase: 'linear',
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        responsive: [
+         {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 1 
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1 
+          }
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1 
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+      });
+      $(".center2").slick({
+        dots: false,
+        arrows: false,
+        autoplay:true,
+        autoplaySpeed: 0,
+        speed:3000,
+        cssEase: 'linear',
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        rtl: true,
+        responsive: [
+         {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 6,
+            slidesToScroll: 1 
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1 
+          }
+        },
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1 
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true,
+        arrows: true,
+        autoplay:true,
+        slidesToShow: 1,
+        speed:1000,
+        dots:false
+        //adaptiveHeight: true
+      })
+      .on('setPosition', function (event, slick) {
+        slick.$slides.css('height', slick.$slideTrack.height() + 'px');
+      });
+      $(".vertical").slick({
+        dots: true,
+        arrows: false,
+        //adaptiveHeight: true,
+        vertical: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+      });
+</script>
+<script>
+/* STICKY */
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("menu");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<script src="js/stars.js"></script>
+</body>
+</html>
