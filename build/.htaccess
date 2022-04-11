@@ -1,0 +1,16 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^torekko.com[nc]
+RewriteRule ^(.*)$ http://www.torekko.com/$1 [r=301,nc]
+
+//Caching schema
+<FilesMatch "\.(jpg|png|css.js)$">
+Header set Cache-Control "public, proxy-revalidate, max-age=3600"
+</FilesMatch>
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
